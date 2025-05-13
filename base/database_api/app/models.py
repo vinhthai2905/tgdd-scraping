@@ -4,7 +4,7 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
-from sqlalchemy import Table, Column, Integer, String, ForeignKey, CheckConstraint
+from sqlalchemy import String, ForeignKey, CheckConstraint
 
 class Base(DeclarativeBase):
     pass
@@ -41,6 +41,8 @@ class Product(Base):
 
 
 class ProductImage(Base):
+    __tablename__ = 'product_image'
+    
     id: Mapped[int] = mapped_column(primary_key=True)
     productID: Mapped[str] = mapped_column(String(50), ForeignKey('product.id'))
     imageURL: Mapped[str] = mapped_column(String(255), nullable=False)
