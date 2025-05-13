@@ -1,0 +1,12 @@
+services:
+  postgres_DB:
+    container_name: postgres_DB
+    image: postgres:17
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: tgdd_db
+    volumes:
+      - ./db/init_db:/docker-entrypoint-initdb.d/:ro
+      - ./db/postgres_data/:/var/lib/postgresql/data
