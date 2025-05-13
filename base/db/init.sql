@@ -1,6 +1,6 @@
 
-CREATE DATABASE productDB;
-USE productDB;
+CREATE DATABASE productdb;
+USE productdb;
 
 CREATE TABLE brand (
     id VARCHAR(50) PRIMARY KEY,
