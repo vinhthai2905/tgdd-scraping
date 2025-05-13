@@ -10,3 +10,13 @@ services:
     volumes:
       - ./db/init_db:/docker-entrypoint-initdb.d/:ro
       - ./db/postgres_data/:/var/lib/postgresql/data
+
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    ports: 
+      - 80:80
+    volumes:
+      - ./api_gateway/nginx.conf:/etc/nginx/nginx.conf
+
+    
