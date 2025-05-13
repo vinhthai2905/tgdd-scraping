@@ -1,6 +1,6 @@
 
-CREATE DATABASE productdb;
-USE productdb;
+CREATE DATABASE productDB;
+USE productDB;
 
 CREATE TABLE brand (
     id VARCHAR(50) PRIMARY KEY,
@@ -9,17 +9,17 @@ CREATE TABLE brand (
 
 CREATE TABLE product (
     id VARCHAR(50) PRIMARY KEY,
-    brandid VARCHAR(50) REFERENCES brand(id),
+    brandId VARCHAR(50) REFERENCES brand(id),
     name VARCHAR(255) NOT NULL,
-    lastprice INTEGER NOT NULL,
+    lastPrice INTEGER NOT NULL,
     description TEXT,
     discount INTEGER DEFAULT 0,
     quantity INTEGER NOT NULL,
     sold INTEGER DEFAULT 0
 );
 
-CREATE TABLE productimage (
+CREATE TABLE productImage (
     id SERIAL PRIMARY KEY,
-    productid VARCHAR(50) REFERENCES product(id),
+    productId VARCHAR(50) REFERENCES product(id),
     url VARCHAR(255) NOT NULL
 );
