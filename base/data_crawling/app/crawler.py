@@ -7,3 +7,4 @@ htmlText = requests.get('https://www.timesjobs.com/candidate/job-search.html?sea
 jobsSoup = BeautifulSoup(htmlText, 'lxml')
 
 jobsSoup.find_all('div', class_='clearfix job-bx wht-shd-bx')
+
