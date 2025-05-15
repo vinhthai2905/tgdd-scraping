@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-
+from app.crawler import phone_crawling
 app = FastAPI()
 
 
-@app.get('/test')
+@app.get('/dtdd')
 def datas_crawling():
-    return {'Test': 155}
+    return phone_crawling()

@@ -1,0 +1,55 @@
+2025-05-15 21:11:16 - INFO - 2025-05-15 21:11:16.209003: Scraped successfully.
+2025-05-15 21:11:48 - INFO - 2025-05-15 21:11:48.565666: Scraped successfully.
+2025-05-15 21:12:14 - ERROR - Error while processing this products
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-15 21:15:32 - ERROR - An error occurred: {str(e)}
+2025-05-15 21:15:32 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-15 21:15:33 - ERROR - An error occurred: {str(e)}
+2025-05-15 21:15:33 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
