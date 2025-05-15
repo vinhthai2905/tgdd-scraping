@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from pprint import pprint
 from datetime import datetime
 import requests
@@ -15,15 +15,34 @@ except Exception as e:
 else:
     phoneSoup = BeautifulSoup(htmlText, 'lxml')
     phoneInfos = phoneSoup.find('ul', class_='listproduct')
-    currentDatetime = datetime.now()
+    
+    try:
+        for i, product in enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')):
+            productHref = product.find('a')
+            productImage = product.find
+            productTags = productHref.find('div', class_='item-label')
+            productNew = productTags.find('span', class_='ln-new')
+            productInstallment = productTags.find('span', class_='lb-tragop')
+            
+            if productNew:
+                productNew = productNew.text
+            if productInstallment:
+                productInstallment = productInstallment.text
+            
+    except Exception as e:
+        print(traceback.print_exception(type(e), e, e.__traceback__))
+
     try:
         with open('../templates/phone/page_1.html', 'w', encoding='utf-8') as file:
             file.write(str(phoneInfos.prettify()))
     except Exception as e:
         pprint(traceback.print_exception(type(e), e, e.__traceback__))
+        
+    currentDatetime = datetime.now()
     print(f'{currentDatetime}: Scraped successfully.')
 
 
+    
 
         
 
