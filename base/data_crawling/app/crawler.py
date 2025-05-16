@@ -22,7 +22,7 @@ datas = dict()
 
 def phone_crawling():
     try:
-        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
+        htmlText = requests.get('', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
@@ -112,16 +112,18 @@ def phone_crawling():
                 # breakpoint()
         
         except Exception as e:
-            print(traceback.print_exception(type(e), e, e.__traceback__))
-            
+            print(f'[{datetime.now()}]: Error: Check logs for more details.')
+            logging.error('An error occurred: {str(e)}')
+            logging.error('Traceback:', exc_info=True)            
         else:
             with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
 
     except Exception as e:
-        pprint(traceback.print_exception(type(e), e, e.__traceback__))
+        print(f'[{datetime.now()}]: Error: Check logs for more details.')
         logging.error('An error occurred: {str(e)}')
         logging.error('Traceback:', exc_info=True)
+        
         
     else:
         currentDatetime = datetime.now()

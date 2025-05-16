@@ -9,12 +9,12 @@ def schedule_phone_crawling():
     @repeat(every(5).seconds)
     def job():
         print(f'[{datetime.now()}] Running scheduled job...')
-        try:
-            crawler.phone_crawling()
-        except Exception as e:
-            print(f'An error occured while crawling. Check logs for more details.')
-        else:
-            print(f'Crawling started. Check logs for more details.')
+        # try:
+        crawler.phone_crawling()
+        # except Exception as e:
+        #     print(f'An error occured while crawling. Check logs for more details.')
+        # else:
+        #     print(f'Crawling started. Check logs for more details.')
     while True:
         schedule.run_pending()
     
