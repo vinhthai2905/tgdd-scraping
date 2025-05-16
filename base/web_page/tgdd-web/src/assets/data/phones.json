@@ -1,0 +1,379 @@
+{
+    "Item_0": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335925/samsung-galaxy-s25-edge-blue-thumb-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "Samsung Galaxy S25 Edge 5G 12GB/256GB Mẫu mới",
+        "productTech": "Quad HD+ (2K+) 6.7\"",
+        "productChoices": [
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "29.990.000₫",
+        "oldPrice": null,
+        "gift": "Trả chậm 0% lãi suất + Thu cũ lên đời trợ giá đến 3 triệu",
+        "soldQuantity": null,
+        "star": null
+    },
+    "Item_1": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336623/realme-14-5g-sliver-thumb-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "realme 14 5G 12GB/256GB Mẫu mới",
+        "productTech": "Full HD+ 6.67\"",
+        "productChoices": [
+            "12GB",
+            "8GB"
+        ],
+        "productPrice": "10.490.000₫",
+        "oldPrice": null,
+        "gift": "Quà 300.000₫",
+        "soldQuantity": "• Đã bán 118",
+        "star": "5"
+    },
+    "Item_2": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "iPhone 16 Pro Max 256GB",
+        "productTech": "Super Retina XDR 6.9\"",
+        "productChoices": [
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "productPrice": "30.690.000₫",
+        "oldPrice": "34.990.000₫",
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 163,1k",
+        "star": "4.9"
+    },
+    "Item_3": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329143/iphone-16-pro-titan-trang.png",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "iPhone 16 Pro 128GB",
+        "productTech": "Super Retina XDR 6.3\"",
+        "productChoices": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "productPrice": "25.190.000₫",
+        "oldPrice": "28.990.000₫",
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 18,2k",
+        "star": "4.9"
+    },
+    "Item_4": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/334932/samsung-galaxy-a56-5g-gray-thumb-1-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Samsung Galaxy A56 5G 12GB/256GB",
+        "productTech": "Full HD+ 6.7\"",
+        "productChoices": [
+            "12GB",
+            "-",
+            "256GB",
+            "8GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "11.690.000₫",
+        "oldPrice": "11.990.000₫",
+        "gift": null,
+        "soldQuantity": "• Đã bán 9,9k",
+        "star": "4.9"
+    },
+    "Item_5": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336702/vivo-v50-lite-tim-thumbai-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "vivo V50 Lite 8GB/256GB Mẫu mới",
+        "productTech": "Full HD+ 6.77 \"",
+        "productChoices": [
+            "12GB",
+            "-",
+            "256GB",
+            "8GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "8.990.000₫",
+        "oldPrice": null,
+        "gift": "Quà 350.000₫",
+        "soldQuantity": "• Đã bán 1,1k",
+        "star": "5"
+    },
+    "Item_6": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/333147/TimerThumb/xiaomi-redmi-note-14-8gb-128gb-(32).jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Xiaomi Redmi Note 14 8GB/128GB",
+        "productTech": "Full HD+ 6.67\"",
+        "productChoices": [
+            "8GB",
+            "-",
+            "128GB",
+            "6GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "5.290.000₫",
+        "oldPrice": "5.490.000₫",
+        "gift": "Quà 350.000₫",
+        "soldQuantity": "• Đã bán 81,1k",
+        "star": "4.9"
+    },
+    "Item_7": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/320731/TimerThumb/xiaomi-redmi-note-14-pro-plus-(34).jpg",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB",
+        "productTech": "1.5K 6.67\"",
+        "productChoices": [
+            "8GB",
+            "-",
+            "256GB",
+            "12GB",
+            "-",
+            "512GB"
+        ],
+        "productPrice": "10.690.000₫",
+        "oldPrice": "10.990.000₫",
+        "gift": null,
+        "soldQuantity": "• Đã bán 4,2k",
+        "star": "4.9"
+    },
+    "Item_8": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/320730/TimerThumb/xiaomi-redmi-note-14-pro-(32).jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Xiaomi Redmi Note 14 Pro 8GB/256GB",
+        "productTech": "Full HD+ 6.67\"",
+        "productChoices": [
+            "8GB",
+            "12GB"
+        ],
+        "productPrice": "7.990.000₫",
+        "oldPrice": null,
+        "gift": "Quà 1.390.000₫",
+        "soldQuantity": "• Đã bán 28,7k",
+        "star": "4.9"
+    },
+    "Item_9": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/334938/oppo-find-n5-black-thumb-600x600.jpg",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "OPPO Find N5 5G 16GB/512GB",
+        "productTech": "QXGA+ Chính 8.12\" & Phụ 6.62\"",
+        "productChoices": [
+            "8GB",
+            "12GB"
+        ],
+        "productPrice": "44.990.000₫",
+        "oldPrice": null,
+        "gift": null,
+        "soldQuantity": "• Đã bán 143",
+        "star": "5"
+    },
+    "Item_10": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/332934/TimerThumb/oppo-reno13-5g-(30).jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "OPPO Reno13 5G 12GB/256GB",
+        "productTech": "1.5K 6.59\"",
+        "productChoices": [
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "15.490.000₫",
+        "oldPrice": "15.990.000₫",
+        "gift": null,
+        "soldQuantity": "• Đã bán 11,1k",
+        "star": "4.9"
+    },
+    "Item_11": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336408/vivo-v50-lite-gold-5g-thumbai-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "vivo V50 Lite 5G 8GB/256GB Mẫu mới",
+        "productTech": "Full HD+ 6.77 \"",
+        "productChoices": [
+            "8GB",
+            "12GB"
+        ],
+        "productPrice": "9.990.000₫",
+        "oldPrice": null,
+        "gift": "Quà 350.000₫",
+        "soldQuantity": "• Đã bán 1,3k",
+        "star": "5"
+    },
+    "Item_12": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336619/realme-14t-5g-black-thumb-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "realme 14T 5G 8GB/256GB Mẫu mới",
+        "productTech": "Full HD+ 6.67\"",
+        "productChoices": [
+            "8GB",
+            "12GB"
+        ],
+        "productPrice": "8.290.000₫",
+        "oldPrice": null,
+        "gift": "Quà 300.000₫",
+        "soldQuantity": "• Đã bán 244",
+        "star": "5"
+    },
+    "Item_13": {
+        "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/335792/honor-x8c-green-thumb-638778940941716593-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "HONOR X8c 8GB/256GB Mẫu mới",
+        "productTech": "Full HD+ 6.7\"",
+        "productChoices": [
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "6.990.000₫",
+        "oldPrice": null,
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 886",
+        "star": "4.9"
+    },
+    "Item_14": {
+        "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/334969/tecno-spark-30-white-thumb-638761785148564781-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Tecno Spark 30 8GB/128GB",
+        "productTech": "Full HD+ 6.78\"",
+        "productChoices": [
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "3.590.000₫",
+        "oldPrice": "3.890.000₫",
+        "gift": "Quà 399.000₫",
+        "soldQuantity": "• Đã bán 576",
+        "star": "4.9"
+    },
+    "Item_15": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336409/masstel-s9-gold-thumb-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "Masstel S9 6GB/256GB Mẫu mới",
+        "productTech": "HD+ 6.67\"",
+        "productChoices": [
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "2.990.000₫",
+        "oldPrice": null,
+        "gift": null,
+        "soldQuantity": "• Đã bán 196",
+        "star": "5"
+    },
+    "Item_16": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329138/iphone-16-plus-xanh-thumb-600x600.jpg",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "iPhone 16 Plus 128GB",
+        "productTech": "Super Retina XDR 6.7\"",
+        "productChoices": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "22.290.000₫",
+        "oldPrice": "25.990.000₫",
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 10,6k",
+        "star": "4.9"
+    },
+    "Item_17": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-xanh-mong-ket-thumbnew-600x600.png",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "iPhone 16 128GB",
+        "productTech": "Super Retina XDR 6.1\"",
+        "productChoices": [
+            "128GB",
+            "256GB",
+            "512GB"
+        ],
+        "productPrice": "19.090.000₫",
+        "oldPrice": "22.990.000₫",
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 12,3k",
+        "star": "4.9"
+    },
+    "Item_18": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335234/samsung-galaxy-a06-5g-black-thumbn-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Samsung Galaxy A06 5G 6GB/128GB",
+        "productTech": "HD+ 6.7\"",
+        "productChoices": [
+            "6GB",
+            "4GB"
+        ],
+        "productPrice": "4.490.000₫",
+        "oldPrice": null,
+        "gift": "Quà 900.000₫",
+        "soldQuantity": "• Đã bán 14,5k",
+        "star": "5"
+    },
+    "Item_19": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/334930/samsung-galaxy-a36-5g-green-thumb-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Samsung Galaxy A36 5G 12GB/256GB",
+        "productTech": "Full HD+ 6.7\"",
+        "productChoices": [
+            "12GB",
+            "-",
+            "256GB",
+            "8GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "9.990.000₫",
+        "oldPrice": "10.290.000₫",
+        "gift": null,
+        "soldQuantity": "• Đã bán 1,9k",
+        "star": "5"
+    }
+}

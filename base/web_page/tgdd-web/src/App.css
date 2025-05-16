@@ -1,0 +1,62 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #f8f9fa;
+  --color-accent: #3b82f6;
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-border: #e5e7eb;
+  --color-price: #ef4444;
+  --color-old-price: #9ca3af;
+  --color-star: #fbbf24;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --transition-speed: 300ms;
+}
+
+* {
+  margin: 0;
+}
+
+#root {
+  max-width: 1800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--color-primary);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn var(--transition-speed) ease-out;
+}
+
+.slideUp {
+  animation: slideUp var(--transition-speed) ease-out;
+}
