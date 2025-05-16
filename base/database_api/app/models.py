@@ -4,45 +4,34 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
-from sqlalchemy import String, ForeignKey, CheckConstraint
+from sqlalchemy import String, ForeignKey, CheckConstraint, Text, Numeric
 
 class Base(DeclarativeBase):
     pass
 
-class Brand(Base):
-    __tablename__ = 'brand'
-
-    id: Mapped[str] = mapped_column(String(50), primary_key=True)
-    brandName: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
-
-    def __repr__(self):
-        return f'User(id={self.id!r})'
-    
 class Product(Base):
-    __tablename__ = 'product'
+    __tablename__ = 'products'
 
-    __table_args__ = (
-        CheckConstraint('price >= 0'),
-        CheckConstraint('lastPrice >= 0'), 
-        CheckConstraint('discount >= 0'),
-        CheckConstraint('quantity >= 0'),
-        CheckConstraint('sold >= 0'),
-    )
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    name: Mapped[str] = mapped_column(Text, nullable=False)
+    product_image: Mapped[str] = mapped_column(Text)
+    exclusive_tag: Mapped[str] = mapped_column(Text)
+    product_new: Mapped[str] = mapped_column(Text)
+    product_installment: Mapped[str] = mapped_column(Text)
+    product_tech: Mapped[str] = mapped_column(Text)
+    product_price: Mapped[str] = mapped_column(Text)
+    old_price: Mapped[str] = mapped_column(Text)
+    gift: Mapped[str] = mapped_column(Text)
+    sold_quantity: Mapped[str] = mapped_column(Text)
+    star: Mapped[float] = mapped_column(Numeric(3, 1), nullable=True)
 
-    id: Mapped[str] = mapped_column(String(255), primary_key=True)
-    brandID: Mapped[str] = mapped_column(String(255), ForeignKey('brand.id'))
-    productName: Mapped[str] = mapped_column(String(255), nullable=False)
-    price: Mapped[int] = mapped_column(nullable=False)
-    lastPrice: Mapped[int] = mapped_column(nullable=False)
-    productDescription: Mapped[str] = mapped_column(nullable=True)
-    discount: Mapped[int] = mapped_column(default=0)
-    quantity: Mapped[int] = mapped_column(nullable=False)
-    sold: Mapped[int] = mapped_column(default=0)    
+    choices: Mapped[list["ProductChoice"]] = relationship(back_populates="product", cascade="all, delete")
 
+class ProductChoice(Base):
+    __tablename__ = 'product_choices'
 
-class ProductImage(Base):
-    __tablename__ = 'product_image'
-    
-    id: Mapped[int] = mapped_column(primary_key=True)
-    productID: Mapped[str] = mapped_column(String(50), ForeignKey('product.id'))
-    imageURL: Mapped[str] = mapped_column(String(255), nullable=False)
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    product_id: Mapped[int] = mapped_column(ForeignKey('products.id', ondelete="CASCADE"))
+    choice: Mapped[str] = mapped_column(Text)
+
+    product: Mapped["Product"] = relationship(back_populates="choices")
