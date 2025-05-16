@@ -20,6 +20,10 @@
 --     productID VARCHAR(50) REFERENCES product(id) ON DELETE CASCADE,
 --     imageURL VARCHAR(255) NOT NULL
 -- );
+
+\echo '>>> Running init.sql'
+
+
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     product_name TEXT,
