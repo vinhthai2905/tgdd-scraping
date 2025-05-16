@@ -53,3 +53,682 @@ Traceback (most recent call last):
   File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
     raise MissingSchema(
 requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:01 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:01 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:06 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:06 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:11 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:11 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:16 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:21 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:21 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:26 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:26 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:31 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:31 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:36 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:36 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:41 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:41 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:46 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:46 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:51 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:51 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:52:56 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:52:56 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:01 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:01 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:06 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:06 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:11 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:11 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:16 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:21 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:21 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:26 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:26 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:31 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:31 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:36 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:36 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:41 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:41 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:46 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:46 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:51 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:51 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:53:56 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:53:56 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:54:01 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:54:01 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:54:06 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:54:06 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:54:11 - ERROR - An error occurred: {str(e)}
+2025-05-16 15:54:11 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\app\crawler.py", line 25, in phone_crawling
+    htmlText = requests.get('', headers=headers).text
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-16 15:54:19 - INFO - 2025-05-16 15:54:19.525284: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:24 - INFO - 2025-05-16 15:54:24.870378: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:30 - INFO - 2025-05-16 15:54:30.219806: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:35 - INFO - 2025-05-16 15:54:35.573152: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:40 - INFO - 2025-05-16 15:54:40.828695: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:46 - INFO - 2025-05-16 15:54:46.098524: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:51 - INFO - 2025-05-16 15:54:51.407748: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:54:56 - INFO - 2025-05-16 15:54:56.733881: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:02 - INFO - 2025-05-16 15:55:02.056530: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:07 - INFO - 2025-05-16 15:55:07.277065: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:12 - INFO - 2025-05-16 15:55:12.585596: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:17 - INFO - 2025-05-16 15:55:17.907484: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:23 - INFO - 2025-05-16 15:55:23.142735: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:28 - INFO - 2025-05-16 15:55:28.381373: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:33 - INFO - 2025-05-16 15:55:33.622414: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 15:55:38 - INFO - 2025-05-16 15:55:38.857314: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:19 - INFO - 2025-05-16 16:11:19.135333: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:24 - INFO - 2025-05-16 16:11:24.626516: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:30 - INFO - 2025-05-16 16:11:30.219554: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:35 - INFO - 2025-05-16 16:11:35.845247: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:41 - INFO - 2025-05-16 16:11:41.378894: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:46 - INFO - 2025-05-16 16:11:46.612583: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:51 - INFO - 2025-05-16 16:11:51.823466: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:11:57 - INFO - 2025-05-16 16:11:57.096886: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:03 - INFO - 2025-05-16 16:12:03.421319: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:08 - INFO - 2025-05-16 16:12:08.703203: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:13 - INFO - 2025-05-16 16:12:13.952964: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:19 - INFO - 2025-05-16 16:12:19.193401: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:24 - INFO - 2025-05-16 16:12:24.442441: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:29 - INFO - 2025-05-16 16:12:29.689524: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:34 - INFO - 2025-05-16 16:12:34.904460: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:40 - INFO - 2025-05-16 16:12:40.145059: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:45 - INFO - 2025-05-16 16:12:45.430704: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:50 - INFO - 2025-05-16 16:12:50.750980: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:12:55 - INFO - 2025-05-16 16:12:55.982774: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:01 - INFO - 2025-05-16 16:13:01.226199: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:06 - INFO - 2025-05-16 16:13:06.481921: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:11 - INFO - 2025-05-16 16:13:11.731029: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:16 - INFO - 2025-05-16 16:13:16.977632: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:22 - INFO - 2025-05-16 16:13:22.310131: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:27 - INFO - 2025-05-16 16:13:27.619801: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:32 - INFO - 2025-05-16 16:13:32.929112: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:38 - INFO - 2025-05-16 16:13:38.237868: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:43 - INFO - 2025-05-16 16:13:43.541949: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:48 - INFO - 2025-05-16 16:13:48.872173: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:54 - INFO - 2025-05-16 16:13:54.199924: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:13:59 - INFO - 2025-05-16 16:13:59.519406: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:04 - INFO - 2025-05-16 16:14:04.907764: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:10 - INFO - 2025-05-16 16:14:10.156974: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:15 - INFO - 2025-05-16 16:14:15.441195: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:20 - INFO - 2025-05-16 16:14:20.719519: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:25 - INFO - 2025-05-16 16:14:25.972820: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:31 - INFO - 2025-05-16 16:14:31.222100: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:36 - INFO - 2025-05-16 16:14:36.549593: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:41 - INFO - 2025-05-16 16:14:41.789814: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:47 - INFO - 2025-05-16 16:14:47.245883: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:52 - INFO - 2025-05-16 16:14:52.536497: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:14:57 - INFO - 2025-05-16 16:14:57.867502: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:03 - INFO - 2025-05-16 16:15:03.181990: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:08 - INFO - 2025-05-16 16:15:08.484274: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:13 - INFO - 2025-05-16 16:15:13.906633: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:19 - INFO - 2025-05-16 16:15:19.281089: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:24 - INFO - 2025-05-16 16:15:24.608061: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:29 - INFO - 2025-05-16 16:15:29.961997: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:35 - INFO - 2025-05-16 16:15:35.262656: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:40 - INFO - 2025-05-16 16:15:40.578112: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:45 - INFO - 2025-05-16 16:15:45.959395: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:15:51 - INFO - 2025-05-16 16:15:51.207435: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:17:20 - INFO - 2025-05-16 16:17:20.428306: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:17:25 - INFO - 2025-05-16 16:17:25.707436: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:17:34 - INFO - 2025-05-16 16:17:34.566637: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:17:50 - INFO - 2025-05-16 16:17:50.403939: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:00 - INFO - 2025-05-16 16:18:00.300287: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:05 - INFO - 2025-05-16 16:18:05.567986: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:10 - INFO - 2025-05-16 16:18:10.825384: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:41 - INFO - 2025-05-16 16:18:41.612550: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:46 - INFO - 2025-05-16 16:18:46.840045: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:52 - INFO - 2025-05-16 16:18:52.083485: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:18:57 - INFO - 2025-05-16 16:18:57.317633: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:02 - INFO - 2025-05-16 16:19:02.564601: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:07 - INFO - 2025-05-16 16:19:07.803536: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:13 - INFO - 2025-05-16 16:19:13.045877: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:18 - INFO - 2025-05-16 16:19:18.306224: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:23 - INFO - 2025-05-16 16:19:23.549964: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:28 - INFO - 2025-05-16 16:19:28.790780: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:34 - INFO - 2025-05-16 16:19:34.086805: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:39 - INFO - 2025-05-16 16:19:39.408892: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:44 - INFO - 2025-05-16 16:19:44.717323: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:50 - INFO - 2025-05-16 16:19:50.049719: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:19:55 - INFO - 2025-05-16 16:19:55.292718: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:20:00 - INFO - 2025-05-16 16:20:00.613358: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:20:05 - INFO - 2025-05-16 16:20:05.869248: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:20:11 - INFO - 2025-05-16 16:20:11.104215: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:19 - INFO - 2025-05-16 16:39:19.143797: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:24 - INFO - 2025-05-16 16:39:24.496341: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:29 - INFO - 2025-05-16 16:39:29.908881: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:35 - INFO - 2025-05-16 16:39:35.348596: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:40 - INFO - 2025-05-16 16:39:40.655028: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:45 - INFO - 2025-05-16 16:39:45.965744: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:51 - INFO - 2025-05-16 16:39:51.285284: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:39:56 - INFO - 2025-05-16 16:39:56.555748: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:01 - INFO - 2025-05-16 16:40:01.812980: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:08 - INFO - 2025-05-16 16:40:08.905729: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:14 - INFO - 2025-05-16 16:40:14.201398: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:19 - INFO - 2025-05-16 16:40:19.475361: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:24 - INFO - 2025-05-16 16:40:24.706649: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:29 - INFO - 2025-05-16 16:40:29.983315: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:35 - INFO - 2025-05-16 16:40:35.217465: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:40 - INFO - 2025-05-16 16:40:40.455485: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:40:59 - INFO - 2025-05-16 16:40:59.576137: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:04 - INFO - 2025-05-16 16:41:04.823244: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:10 - INFO - 2025-05-16 16:41:10.102051: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:15 - INFO - 2025-05-16 16:41:15.397396: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:20 - INFO - 2025-05-16 16:41:20.669614: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:29 - INFO - 2025-05-16 16:41:29.879257: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:35 - INFO - 2025-05-16 16:41:35.122251: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:40 - INFO - 2025-05-16 16:41:40.390330: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:45 - INFO - 2025-05-16 16:41:45.642206: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:50 - INFO - 2025-05-16 16:41:50.885099: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:41:56 - INFO - 2025-05-16 16:41:56.134022: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:01 - INFO - 2025-05-16 16:42:01.378175: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:06 - INFO - 2025-05-16 16:42:06.654470: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:11 - INFO - 2025-05-16 16:42:11.917077: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:17 - INFO - 2025-05-16 16:42:17.153375: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:22 - INFO - 2025-05-16 16:42:22.454779: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:27 - INFO - 2025-05-16 16:42:27.788093: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:33 - INFO - 2025-05-16 16:42:33.256582: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:38 - INFO - 2025-05-16 16:42:38.618566: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:42:43 - INFO - 2025-05-16 16:42:43.927305: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.
+2025-05-16 16:45:45 - ERROR - An error occurred: {str(e)}
+2025-05-16 16:45:45 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 29, in phone_crawling
+    items = len(enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')))
+TypeError: object of type 'enumerate' has no len()
+2025-05-16 16:45:51 - ERROR - An error occurred: {str(e)}
+2025-05-16 16:45:51 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 29, in phone_crawling
+    items = len(enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')))
+TypeError: object of type 'enumerate' has no len()
+2025-05-16 16:49:25 - INFO - 2025-05-16 16:49:25.113845: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:30 - INFO - 2025-05-16 16:49:30.376367: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:35 - INFO - 2025-05-16 16:49:35.620321: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:40 - INFO - 2025-05-16 16:49:40.874295: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:46 - INFO - 2025-05-16 16:49:46.135339: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:51 - INFO - 2025-05-16 16:49:51.383419: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:49:56 - INFO - 2025-05-16 16:49:56.645072: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:01 - INFO - 2025-05-16 16:50:01.916779: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:07 - INFO - 2025-05-16 16:50:07.132983: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:12 - INFO - 2025-05-16 16:50:12.709692: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:18 - INFO - 2025-05-16 16:50:18.045755: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:23 - INFO - 2025-05-16 16:50:23.377042: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:28 - INFO - 2025-05-16 16:50:28.624626: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:33 - INFO - 2025-05-16 16:50:33.887667: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:39 - INFO - 2025-05-16 16:50:39.124171: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:44 - INFO - 2025-05-16 16:50:44.360195: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:49 - INFO - 2025-05-16 16:50:49.615259: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:50:54 - INFO - 2025-05-16 16:50:54.842189: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:00 - INFO - 2025-05-16 16:51:00.105904: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:05 - INFO - 2025-05-16 16:51:05.354674: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:10 - INFO - 2025-05-16 16:51:10.614203: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:15 - INFO - 2025-05-16 16:51:15.881332: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:21 - INFO - 2025-05-16 16:51:21.128217: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:26 - INFO - 2025-05-16 16:51:26.395398: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:35 - INFO - 2025-05-16 16:51:35.103751: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:40 - INFO - 2025-05-16 16:51:40.335863: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:45 - INFO - 2025-05-16 16:51:45.603729: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:50 - INFO - 2025-05-16 16:51:50.858470: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:51:56 - INFO - 2025-05-16 16:51:56.104312: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:01 - INFO - 2025-05-16 16:52:01.338160: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:06 - INFO - 2025-05-16 16:52:06.576268: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:11 - INFO - 2025-05-16 16:52:11.835631: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:17 - INFO - 2025-05-16 16:52:17.081599: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:22 - INFO - 2025-05-16 16:52:22.555590: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:27 - INFO - 2025-05-16 16:52:27.801589: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:33 - INFO - 2025-05-16 16:52:33.051121: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:38 - INFO - 2025-05-16 16:52:38.291764: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:43 - INFO - 2025-05-16 16:52:43.569944: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:48 - INFO - 2025-05-16 16:52:48.799233: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:54 - INFO - 2025-05-16 16:52:54.029920: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:52:59 - INFO - 2025-05-16 16:52:59.248339: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:04 - INFO - 2025-05-16 16:53:04.489533: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:09 - INFO - 2025-05-16 16:53:09.743111: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:14 - INFO - 2025-05-16 16:53:14.977449: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:20 - INFO - 2025-05-16 16:53:20.225577: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:25 - INFO - 2025-05-16 16:53:25.448498: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:30 - INFO - 2025-05-16 16:53:30.708605: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:35 - INFO - 2025-05-16 16:53:35.975748: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:41 - INFO - 2025-05-16 16:53:41.185921: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:46 - INFO - 2025-05-16 16:53:46.416111: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:51 - INFO - 2025-05-16 16:53:51.686931: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-16 16:53:56 - INFO - 2025-05-16 16:53:56.921103: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total

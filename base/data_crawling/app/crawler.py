@@ -22,13 +22,14 @@ datas = dict()
 
 def phone_crawling():
     try:
-        htmlText = requests.get('', headers=headers).text
+        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
-
+        itemCount = 0
         try:
             for i, product in enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')):
+                itemCount = itemCount + 1
                 productHref = product.find('a')
                 productBanners = product.find('div', class_='item-img item-img_42')
                 productTags = productHref.find('div', class_='item-label')
@@ -124,12 +125,12 @@ def phone_crawling():
         
     else:
         currentDatetime = datetime.now()
-        logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully.')
+        logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
 
     return datas
     
 
-if __name__ == '__main__'   :
+if __name__ == '__main__':
     phone_crawling()
 
         
