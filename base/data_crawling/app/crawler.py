@@ -112,24 +112,30 @@ def phone_crawling():
                 # breakpoint()
         
         except Exception as e:
-            print(f'[{datetime.now()}]: Error: Check logs for more details.')
+            error = f'[{datetime.now()}]: Error: Check logs for more details.'
+            print(error)
             logging.error('An error occurred: {str(e)}')
-            logging.error('Traceback:', exc_info=True)            
+            logging.error('Traceback:', exc_info=True)
+            
+            return error            
         else:
             with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
 
     except Exception as e:
-        print(f'[{datetime.now()}]: Error: Check logs for more details.')
+        error = f'[{datetime.now()}]: Error: Check logs for more details.'
         logging.error('An error occurred: {str(e)}')
         logging.error('Traceback:', exc_info=True)
+        print(error)
         
+        return error
         
     else:
         currentDatetime = datetime.now()
-        logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
+        succeed = logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
+        
+        return succeed
 
-    return datas
     
 
 if __name__ == '__main__':
