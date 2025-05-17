@@ -4,6 +4,15 @@ from datetime import datetime
 import requests
 import traceback
 import json
+import logging
+
+
+logging.basicConfig(
+    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\logs\crawler.log',  
+    level=logging.INFO, 
+    format='%(asctime)s - %(levelname)s - %(message)s',  #
+    datefmt='%Y-%m-%d %H:%M:%S'  
+)
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
@@ -11,18 +20,16 @@ headers = {
 
 datas = dict()
 
-def phone_crawling(datas):
+def phone_crawling():
     try:
-        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
-    except Exception as e:
-        pprint(traceback.print_exception(type(e), e, e.__traceback__))
-    else:
+        htmlText = requests.get('', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
-
+        itemCount = 0
         try:
             for i, product in enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')):
+                itemCount = itemCount + 1
                 productHref = product.find('a')
                 productBanners = product.find('div', class_='item-img item-img_42')
                 productTags = productHref.find('div', class_='item-label')
@@ -105,25 +112,28 @@ def phone_crawling(datas):
                 # breakpoint()
         
         except Exception as e:
-            print(traceback.print_exception(type(e), e, e.__traceback__))
+            print(f'[{datetime.now()}]: Error: Check logs for more details.')
+            logging.error('An error occurred: {str(e)}')
+            logging.error('Traceback:', exc_info=True)            
         else:
-            pprint(datas)
-            with open('../../landing_zone/phones.json', 'w', encoding='utf-8') as jsonFile:
+            with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
 
-        try:
-            with open('../templates/phone/page_1.html', 'w', encoding='utf-8') as file:
-                file.write(str(phoneInfos.prettify()))
-        except Exception as e:
-            pprint(traceback.print_exception(type(e), e, e.__traceback__))
-            
+    except Exception as e:
+        print(f'[{datetime.now()}]: Error: Check logs for more details.')
+        logging.error('An error occurred: {str(e)}')
+        logging.error('Traceback:', exc_info=True)
+        
+        
+    else:
         currentDatetime = datetime.now()
-        print(f'{currentDatetime}: Scraped successfully.')
+        logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
 
+    return datas
     
 
-if __name__ == '__main__'   :
-    phone_crawling(datas= datas)
+if __name__ == '__main__':
+    phone_crawling()
 
         
 
