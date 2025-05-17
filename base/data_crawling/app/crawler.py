@@ -22,7 +22,7 @@ datas = dict()
 
 def phone_crawling():
     try:
-        htmlText = requests.get('', headers=headers).text
+        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()

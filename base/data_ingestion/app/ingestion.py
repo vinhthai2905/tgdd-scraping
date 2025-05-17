@@ -61,7 +61,6 @@ def sending_product_datas():
     else:
         for i, productInfos in datas.items():
             productInfos: dict
-            
             for productName, value in productInfos.items():
                 if productName == 'productChoices':
                     values: list = value
@@ -82,22 +81,11 @@ def sending_product_datas():
             }
             
             try:
-                requests.post('localhost:8000/insert-product/dtdd', json=productDict)
+                requests.post('http://127.0.0.1:8000/insert-product/dtdd', json=productDict[i])
+                print('Ok')
             except Exception as e:
                 print(e)
-            # # product = models.Product(
-            #     product_name=productInfos.get('productName'),
-            #     product_image = productInfos.get('productImage'),
-            #     exclusive_tag = productInfos.get('exclusiveTag'),
-            #     product_new = productInfos.get('productNew'),
-            #     product_installment = productInfos.get('productInstallment'),
-            #     product_tech = productInfos.get('productTech'),
-            #     product_price = productInfos.get('productPrice'),
-            #     old_price = productInfos.get('oldPrice'),
-            #     gift = productInfos.get('gift'),
-            #     sold_quantity = productInfos.get('soldQuantity'),
-            #     star = productInfos.get('star'),
-            # )
+        
             
             
                 
