@@ -3,20 +3,20 @@ from typing import List, Optional
 from decimal import Decimal
 
 
-class ProductChoiceBase(BaseModel):
+class ProductChoice(BaseModel):
     choice: str
 
-class ProductChoiceCreate(ProductChoiceBase):
+class ProductChoiceCreate(ProductChoice):
     product_id: int
 
-class ProductChoiceRead(ProductChoiceBase):
+class ProductChoiceRead(ProductChoice):
     id: int
 
     class Config:
         orm_mode = True
 
 
-class ProductBase(BaseModel):
+class Product(BaseModel):
     name: str
     image: Optional[str] = None
     exclusive_tag: Optional[str] = None
@@ -29,10 +29,10 @@ class ProductBase(BaseModel):
     sold_quantity: Optional[str] = None
     star: Optional[float] = None
 
-class ProductCreate(ProductBase):
+class ProductCreate(Product):
     pass
 
-class ProductRead(ProductBase):
+class ProductRead(Product):
     id: int
     choices: List[ProductChoiceRead] = []
 
