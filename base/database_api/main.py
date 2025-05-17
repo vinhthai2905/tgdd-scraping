@@ -36,6 +36,7 @@ async def insert_datas_tgdd(productDict: dict, dbCon: Session = Depends(db_conne
         existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
         
         if existingProduct:
+            logging.info(f'Skipping insertion: {existingProduct.product_name} is duplicated.')
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
             print(message)
             return {'message': message}
@@ -64,7 +65,14 @@ async def insert_datas_tgdd(productDict: dict, dbCon: Session = Depends(db_conne
             dbCon.commit()
             
     except Exception as e:
-        error = f'[{datetime.now()}]: Error: Check logs for more details.'
-        logging.error('An error occurred: {str(e)}')
-        logging.error('Traceback:', exc_info=True)
-        return {"status": "error", "detail": str(e)}
+        logging.error(f'An error occurred while inserting data. {repr(e)}')
+        result = {'Inserting': 'An error occurred while processing datas. Check logs for more details.'}
+        pprint('An error occurred while processing datas. Check logs for more details.')
+        return result
+    
+    else:
+        logging.info(f'Data being inserted into database successfully.')
+        result = {'Inserting': 'Inserted datas into database successfully.'}
+        pprint('Inserting datas into database sucessfully.')
+        return result
+    

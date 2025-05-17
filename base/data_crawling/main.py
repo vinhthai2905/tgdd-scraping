@@ -1,5 +1,6 @@
 import requests
 from fastapi import FastAPI
+from pprint import pprint
 from threading import Thread
 from app.crawler import phone_crawling
 from app.scheduler import schedule_phone_crawling
@@ -17,9 +18,6 @@ def start_scheduler():
 @app.get('/crawling/dtdd/')
 def datas_crawling():
     message = phone_crawling()
-    try:
-        respone = requests.get('http://127.0.0.1:8002/sending-data/dtdd')
-    except Exception as e:
-        print(e)
-    return {'Message': message, 
-            'Request Insertion': respone.status_code}
+    pprint(message)
+    return {'Message': message}
+              

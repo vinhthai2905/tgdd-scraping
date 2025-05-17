@@ -48,15 +48,17 @@ def sending_product_datas():
             #     'choices': choiceList
             # }
             try:
-                requests.post('http://127.0.0.1:8000/insert-product/dtdd', json=productDict[i])
+                requests.post('http://127.0.0.1:8001/insert-product/dtdd', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}]: Error: Check logs for more details.'
-                logging.error('An error occurred: {str(e)}')
-                logging.error('Traceback:', exc_info=True)
+                pprint(error)
+                logging.error(f'An error occurred while requesting inserting datas. {repr(e)}')
                 return error
             
-        succeed = logging.info(f'[{datetime.now()}] - Data being sent successfully.')
-        return f'[{datetime.now()}] - Data being sent successfully.'
+        logging.info('Data being sent successfully.')
+        result = f'[{datetime.now()}] - Data being sent sucessfully'
+        pprint(result)
+        return result
     
     
 if __name__ == '__main__':
