@@ -1,3 +1,4 @@
+import requests
 import schedule
 import time
 from app import crawler
@@ -11,6 +12,7 @@ def schedule_phone_crawling():
         print(f'[{datetime.now()}] Running scheduled job...')
         # try:
         crawler.phone_crawling()
+        requests.get('http://127.0.0.1:8002/sending-data/dtdd')
         # except Exception as e:
         #     print(f'An error occured while crawling. Check logs for more details.')
         # else:

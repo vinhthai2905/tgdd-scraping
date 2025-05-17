@@ -1,0 +1,321 @@
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:03:16 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:03:16 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.891027] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.895027] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.900720] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.904720] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.924815] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.929816] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.933815] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.961402] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.972402] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.977403] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.981402] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.985403] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:11:55 - INFO - [2025-05-17 19:11:55.989836] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.854889] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.858889] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.862889] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.867890] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.889185] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.892185] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.897185] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.926253] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.937857] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.941857] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.945857] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.949858] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:13:39 - INFO - [2025-05-17 19:13:39.953859] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.118417] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.123417] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.128352] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.132999] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.155126] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.159126] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.163127] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.195126] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.207126] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.211128] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.215126] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.219127] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:15:30 - INFO - [2025-05-17 19:15:30.224127] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.297601] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.303601] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.308602] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.315603] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.336601] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.340493] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.344493] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.375072] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.388672] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.393998] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.398997] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.403998] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:15:41 - INFO - [2025-05-17 19:15:41.408998] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.540773] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.545773] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.549773] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.553773] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.574772] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.579774] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.584774] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.611772] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.624773] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.628772] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.632772] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.636772] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:19:11 - INFO - [2025-05-17 19:19:11.640771] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.757139] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.762139] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.767138] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.772137] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.795921] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.799920] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.804920] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.840520] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.853520] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.859030] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.864032] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.868031] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:19:22 - INFO - [2025-05-17 19:19:22.872667] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.950161] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.954160] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.958161] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.964160] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.983160] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.987210] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:19:49 - INFO - [2025-05-17 19:19:49.991861] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.043118] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.056119] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.061118] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.065119] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.069118] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:19:50 - INFO - [2025-05-17 19:19:50.073119] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.038956] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.042953] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.047955] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.051956] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.074599] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.078600] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.083601] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.125722] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.143031] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.150812] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.155810] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.159810] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:20:17 - INFO - [2025-05-17 19:20:17.164810] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.342582] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.346582] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.350582] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.356582] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.379582] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.383582] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.388582] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.417582] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.430431] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.434939] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.439085] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.439085] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:22:02 - INFO - [2025-05-17 19:22:02.447374] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:25:23 - INFO - [2025-05-17 19:25:23] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:27:40 - ERROR - An error occurred: {str(e)}
+2025-05-17 19:27:40 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 35, in insert_datas_tgdd
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.092561] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.098561] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.105073] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.110072] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.135160] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.140816] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.144813] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.177891] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.190890] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.195889] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.200889] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.205889] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:30:23 - INFO - [2025-05-17 19:30:23.210306] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.753280] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.757280] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.762280] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.769280] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.792302] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.797302] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.802301] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.836477] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.852476] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.856476] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.861064] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.867069] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:33:15 - INFO - [2025-05-17 19:33:15.873064] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.305895] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.311897] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.316896] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.322895] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.349722] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.353724] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.357721] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.390554] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.404555] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.409555] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.414260] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.419317] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:34:00 - INFO - [2025-05-17 19:34:00.423316] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.195221] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.200217] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.206219] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.211337] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.234877] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.239875] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.244878] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.278707] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.293704] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.298950] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.303950] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.308951] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:34:21 - INFO - [2025-05-17 19:34:21.314054] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.373604] Skipping insertion: Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.378605] Skipping insertion: iPhone 16 Pro Max 256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.382605] Skipping insertion: iPhone 16 Pro 128GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.387603] Skipping insertion: Samsung Galaxy A56 5G 12GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.410603] Skipping insertion: Xiaomi Redmi Note 14 Pro 8GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.414603] Skipping insertion: OPPO Find N5 5G 16GB/512GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.419604] Skipping insertion: OPPO Reno13 5G 12GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.447604] Skipping insertion: Tecno Spark 30 8GB/128GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.459603] Skipping insertion: iPhone 16 Plus 128GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.464603] Skipping insertion: iPhone 16 128GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.468603] Skipping insertion: Samsung Galaxy A06 5G 6GB/128GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.472603] Skipping insertion: Samsung Galaxy A36 5G 12GB/256GB duplicated.
+2025-05-17 19:39:22 - INFO - [2025-05-17 19:39:22.476605] Skipping insertion: Xiaomi Redmi Note 14 Pro 5G 8GB/256GB duplicated.

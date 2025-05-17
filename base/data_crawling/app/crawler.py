@@ -134,7 +134,7 @@ def phone_crawling():
         currentDatetime = datetime.now()
         succeed = logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
-        return succeed
+        return f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total'
 
     
 

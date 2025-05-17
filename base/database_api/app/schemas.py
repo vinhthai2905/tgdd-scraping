@@ -12,9 +12,9 @@ class ProductChoiceCreate(ProductChoice):
 class ProductChoiceRead(ProductChoice):
     id: int
 
-    class Config:
-        orm_mode = True
-
+    model_config = {
+        "from_attributes": True  
+    }
 
 class Product(BaseModel):
     name: str
@@ -36,5 +36,6 @@ class ProductRead(Product):
     id: int
     choices: List[ProductChoiceRead] = []
 
-    class Config:
-        orm_mode = True
+    model_config = {
+        "from_attributes": True  
+    }

@@ -70,3 +70,32 @@ Traceback (most recent call last):
   File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
     raise MissingSchema(
 requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-17 20:02:47 - INFO - 2025-05-17 20:02:47.849699: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:02:56 - INFO - 2025-05-17 20:02:56.541806: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:04:11 - INFO - 2025-05-17 20:04:11.016489: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:04:27 - INFO - 2025-05-17 20:04:27.145149: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:04:40 - INFO - 2025-05-17 20:04:40.982979: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:04:53 - INFO - 2025-05-17 20:04:53.831606: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:13:14 - INFO - 2025-05-17 20:13:14.049727: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:14:28 - INFO - 2025-05-17 20:14:28.127405: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:16:15 - INFO - 2025-05-17 20:16:15.648361: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:13 - INFO - 2025-05-17 20:21:13.436154: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:18 - INFO - 2025-05-17 20:21:18.774301: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:24 - INFO - 2025-05-17 20:21:24.133505: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:29 - INFO - 2025-05-17 20:21:29.504507: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:34 - INFO - 2025-05-17 20:21:34.863695: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:40 - INFO - 2025-05-17 20:21:40.222434: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:45 - INFO - 2025-05-17 20:21:45.674588: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:51 - INFO - 2025-05-17 20:21:51.187381: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:21:56 - INFO - 2025-05-17 20:21:56.663100: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:02 - INFO - 2025-05-17 20:22:02.131520: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:07 - INFO - 2025-05-17 20:22:07.592420: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:13 - INFO - 2025-05-17 20:22:13.088211: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:18 - INFO - 2025-05-17 20:22:18.510234: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:25 - INFO - 2025-05-17 20:22:25.789296: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:33 - INFO - 2025-05-17 20:22:33.084890: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:40 - INFO - 2025-05-17 20:22:40.369598: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:47 - INFO - 2025-05-17 20:22:47.631979: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:22:54 - INFO - 2025-05-17 20:22:54.916332: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:23:02 - INFO - 2025-05-17 20:23:02.236805: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 20:23:09 - INFO - 2025-05-17 20:23:09.541640: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
