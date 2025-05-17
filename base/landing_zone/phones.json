@@ -227,9 +227,9 @@
     "Item_12": {
         "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/335792/honor-x8c-green-thumb-638778940941716593-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": "Mẫu mới",
+        "productNew": null,
         "productInstallment": null,
-        "productName": "HONOR X8c 8GB/256GB Mẫu mới",
+        "productName": "HONOR X8c 8GB/256GB",
         "productTech": "Full HD+ 6.7\"",
         "productChoices": [
             "256GB",

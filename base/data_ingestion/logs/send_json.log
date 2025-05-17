@@ -1,0 +1,46 @@
+2025-05-17 23:13:56 - INFO - Data being sent successfully.
+2025-05-17 23:13:57 - INFO - Data being sent successfully.
+2025-05-17 23:14:02 - INFO - Data being sent successfully.
+2025-05-17 23:14:03 - INFO - Data being sent successfully.
+2025-05-17 23:14:08 - INFO - Data being sent successfully.
+2025-05-17 23:14:08 - INFO - Data being sent successfully.
+2025-05-17 23:14:14 - INFO - Data being sent successfully.
+2025-05-17 23:14:14 - INFO - Data being sent successfully.
+2025-05-17 23:14:19 - INFO - Data being sent successfully.
+2025-05-17 23:14:20 - INFO - Data being sent successfully.
+2025-05-17 23:14:25 - INFO - Data being sent successfully.
+2025-05-17 23:14:26 - INFO - Data being sent successfully.
+2025-05-17 23:14:31 - INFO - Data being sent successfully.
+2025-05-17 23:14:31 - INFO - Data being sent successfully.
+2025-05-17 23:14:37 - INFO - Data being sent successfully.
+2025-05-17 23:14:37 - INFO - Data being sent successfully.
+2025-05-17 23:14:42 - INFO - Data being sent successfully.
+2025-05-17 23:14:43 - INFO - Data being sent successfully.
+2025-05-17 23:14:48 - INFO - Data being sent successfully.
+2025-05-17 23:14:49 - INFO - Data being sent successfully.
+2025-05-17 23:14:54 - INFO - Data being sent successfully.
+2025-05-17 23:14:54 - INFO - Data being sent successfully.
+2025-05-17 23:15:00 - INFO - Data being sent successfully.
+2025-05-17 23:15:00 - INFO - Data being sent successfully.
+2025-05-17 23:15:05 - INFO - Data being sent successfully.
+2025-05-17 23:15:06 - INFO - Data being sent successfully.
+2025-05-17 23:15:11 - INFO - Data being sent successfully.
+2025-05-17 23:15:11 - INFO - Data being sent successfully.
+2025-05-17 23:15:18 - INFO - Data being sent successfully.
+2025-05-17 23:15:19 - INFO - Data being sent successfully.
+2025-05-17 23:15:24 - INFO - Data being sent successfully.
+2025-05-17 23:15:24 - INFO - Data being sent successfully.
+2025-05-17 23:15:32 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3CC310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:15:34 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3CC8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:15:41 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3EE2B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:15:44 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3EEC70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:15:51 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3CC8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:15:53 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3EED30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:16:01 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3EE1F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:16:03 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD404640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:16:10 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AB10AF40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:16:12 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000273AD3EE7F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:16:18 - INFO - Data being sent successfully.
+2025-05-17 23:16:18 - INFO - Data being sent successfully.
+2025-05-17 23:16:24 - INFO - Data being sent successfully.
+2025-05-17 23:16:24 - INFO - Data being sent successfully.

@@ -22,7 +22,7 @@ datas = dict()
 
 def phone_crawling():
     try:
-        htmlText = requests.get('', headers=headers).text
+        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
@@ -124,19 +124,34 @@ def phone_crawling():
 
     except Exception as e:
         error = f'[{datetime.now()}]: Error: Check logs for more details.'
-        logging.error('An error occurred: {str(e)}')
+        logging.error(f'An error occurred: {str(e)}')
         logging.error('Traceback:', exc_info=True)
-        print(error)
+        print(f'[{currentDatetime}]: An error occur while extracting datas. Check logs for more details.')
         
-        return error
+        return {
+            'Extracting': 'An error occur while extracting datas. Check logs for more details.'
+        }
         
     else:
         currentDatetime = datetime.now()
-        succeed = logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
+        logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
-        return succeed
+        try:
+            requests.get('http://127.0.0.1:8002/sending-data/dtdd')
+        except Exception as e:
+            logging.error(f'An error occurred while requesting sending data. {repr(e)}')
+            return {
+                'Scraping': f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
+                'Requesting': f'{currentDatetime}: Requesting data being sent failed. Check logs for more details.'
+            }
+        else:
+            logging.info('Requesting sending datas sucessfully.')
+            
+            return {
+                'Scraping' : f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
+                'Requesting': f'{currentDatetime}: Requesting data being sent successfully. Check logs for more details.'
+            }
 
-    
 
 if __name__ == '__main__':
     phone_crawling()

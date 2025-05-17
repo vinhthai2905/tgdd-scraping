@@ -1,72 +1,99 @@
-2025-05-16 18:39:18 - ERROR - An error occurred: {str(e)}
-2025-05-16 18:39:18 - ERROR - Traceback:
-Traceback (most recent call last):
-  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
-    htmlText = requests.get('', headers=headers).text
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
-    p.prepare(
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
-    self.prepare_url(url, params)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
-2025-05-16 18:39:23 - ERROR - An error occurred: {str(e)}
-2025-05-16 18:39:23 - ERROR - Traceback:
-Traceback (most recent call last):
-  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
-    htmlText = requests.get('', headers=headers).text
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
-    p.prepare(
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
-    self.prepare_url(url, params)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
-2025-05-16 18:39:28 - ERROR - An error occurred: {str(e)}
-2025-05-16 18:39:28 - ERROR - Traceback:
-Traceback (most recent call last):
-  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
-    htmlText = requests.get('', headers=headers).text
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
-    p.prepare(
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
-    self.prepare_url(url, params)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
-2025-05-16 18:39:33 - ERROR - An error occurred: {str(e)}
-2025-05-16 18:39:33 - ERROR - Traceback:
-Traceback (most recent call last):
-  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 25, in phone_crawling
-    htmlText = requests.get('', headers=headers).text
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
-    return request("get", url, params=params, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 575, in request
-    prep = self.prepare_request(req)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 484, in prepare_request
-    p.prepare(
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 367, in prepare
-    self.prepare_url(url, params)
-  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\models.py", line 438, in prepare_url
-    raise MissingSchema(
-requests.exceptions.MissingSchema: Invalid URL '': No scheme supplied. Perhaps you meant https://?
+2025-05-17 23:02:17 - INFO - 2025-05-17 23:02:17.668600: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:02:19 - ERROR - An error occurred while requesting sending data. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8002): Max retries exceeded with url: /sending-data/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B1349DF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:02:19 - INFO - 2025-05-17 23:02:19.964472: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:02:22 - ERROR - An error occurred while requesting sending data. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8002): Max retries exceeded with url: /sending-data/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B137DA0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:02:27 - INFO - 2025-05-17 23:02:27.322732: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:02:29 - ERROR - An error occurred while requesting sending data. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8002): Max retries exceeded with url: /sending-data/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B1316DDF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:02:29 - INFO - 2025-05-17 23:02:29.628438: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:02:31 - ERROR - An error occurred while requesting sending data. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8002): Max retries exceeded with url: /sending-data/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022B11F57FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-17 23:02:36 - INFO - 2025-05-17 23:02:36.922216: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:02:37 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:02:37 - INFO - 2025-05-17 23:02:37.348355: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:04:49 - INFO - 2025-05-17 23:04:49.200586: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:04:49 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:04:49 - INFO - 2025-05-17 23:04:49.673322: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:04:49 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:04:55 - INFO - 2025-05-17 23:04:55.029617: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:04:55 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:04:55 - INFO - 2025-05-17 23:04:55.383297: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:04:55 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:00 - INFO - 2025-05-17 23:05:00.751049: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:00 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:01 - INFO - 2025-05-17 23:05:01.108588: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:01 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:06 - INFO - 2025-05-17 23:05:06.475886: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:06 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:06 - INFO - 2025-05-17 23:05:06.838986: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:06 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:12 - INFO - 2025-05-17 23:05:12.201256: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:12 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:12 - INFO - 2025-05-17 23:05:12.530758: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:12 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:17 - INFO - 2025-05-17 23:05:17.869524: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:17 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:18 - INFO - 2025-05-17 23:05:18.217524: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:18 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:23 - INFO - 2025-05-17 23:05:23.601918: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:23 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:23 - INFO - 2025-05-17 23:05:23.938520: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:24 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:29 - INFO - 2025-05-17 23:05:29.296570: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:29 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:29 - INFO - 2025-05-17 23:05:29.645187: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:29 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:34 - INFO - 2025-05-17 23:05:34.983713: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:35 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:35 - INFO - 2025-05-17 23:05:35.362423: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:35 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:40 - INFO - 2025-05-17 23:05:40.735737: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:40 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:41 - INFO - 2025-05-17 23:05:41.072221: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:41 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:46 - INFO - 2025-05-17 23:05:46.428487: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:46 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:46 - INFO - 2025-05-17 23:05:46.775960: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:46 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:52 - INFO - 2025-05-17 23:05:52.133998: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:54 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:05:54 - INFO - 2025-05-17 23:05:54.443030: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:05:56 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:01 - INFO - 2025-05-17 23:06:01.715400: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:03 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:04 - INFO - 2025-05-17 23:06:04.048509: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:06 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:36 - INFO - 2025-05-17 23:06:36.636899: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:37 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:37 - INFO - 2025-05-17 23:06:37.583854: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:37 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:42 - INFO - 2025-05-17 23:06:42.972224: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:43 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:06:43 - INFO - 2025-05-17 23:06:43.317362: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:06:43 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:37 - INFO - 2025-05-17 23:11:37.487471: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:37 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:37 - INFO - 2025-05-17 23:11:37.925475: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:38 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:43 - INFO - 2025-05-17 23:11:43.272463: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:43 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:43 - INFO - 2025-05-17 23:11:43.596815: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:43 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:48 - INFO - 2025-05-17 23:11:48.938610: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:50 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:51 - INFO - 2025-05-17 23:11:51.212218: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:11:53 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:11:58 - INFO - 2025-05-17 23:11:58.520348: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:00 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:00 - INFO - 2025-05-17 23:12:00.870274: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:02 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:08 - INFO - 2025-05-17 23:12:08.183467: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:10 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:10 - INFO - 2025-05-17 23:12:10.469498: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:12 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:17 - INFO - 2025-05-17 23:12:17.735532: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:24 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:24 - INFO - 2025-05-17 23:12:24.717321: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:25 - ERROR - An error occurred while requesting sending data. ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+2025-05-17 23:12:30 - INFO - 2025-05-17 23:12:30.673716: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:32 - INFO - Requesting sending datas sucessfully.
+2025-05-17 23:12:33 - INFO - 2025-05-17 23:12:33.000200: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-17 23:12:35 - ERROR - An error occurred while requesting sending data. ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
