@@ -3701,3 +3701,283 @@
 2025-05-18 10:40:45 - ERROR - An error occurred while inserting data. OperationalError('(psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nconnection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n')
 2025-05-18 10:40:45 - ERROR - An error occurred while inserting data. OperationalError('(psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nconnection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n')
 2025-05-18 10:40:45 - ERROR - An error occurred while inserting data. OperationalError('(psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nconnection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n')
+2025-05-18 22:35:53 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 85, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:36:11 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 85, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:42:05 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    if dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first():
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:42:12 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    if dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first():
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:42:13 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    if dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first():
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:42:35 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    if dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first() == None:
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:46:31 - ERROR - An error occurred while inserting laptop datas. 
+ TypeError("'NoneType' object is not subscriptable") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-18 22:50:21 - ERROR - An error occurred while inserting laptop datas. 
+ AttributeError("'NoneType' object has no attribute 'get'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 85, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos.get('productName')).first()
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2025-05-18 22:51:53 - ERROR - An error occurred while inserting laptop datas. 
+ AttributeError("'NoneType' object has no attribute 'get'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 86, in insert_laptops
+    if productInfos.get('productName') == None:
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2025-05-18 22:57:30 - ERROR - Invalid or missing 'product' key in received data
+2025-05-18 22:58:03 - ERROR - Invalid or missing 'product' key in received data
+2025-05-18 22:58:38 - ERROR - Invalid or missing 'product' key in received data
+2025-05-18 22:59:14 - ERROR - An error occurred while inserting laptop datas. 
+ OperationalError('(psycopg2.OperationalError) could not translate host name "postgres_DB" to address: Unknown host\n') 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 180, in _do_get
+    self._dec_overflow()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres_DB" to address: Unknown host
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 91, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos.get('productName')).first()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3278, in connect
+    return self._connection_cls(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 2442, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 180, in _do_get
+    self._dec_overflow()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres_DB" to address: Unknown host
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-05-18 23:00:56 - ERROR - An error occurred while inserting laptop datas. 
+ OperationalError('(psycopg2.OperationalError) could not connect to server: Connection refused (0x0000274D/10061)\n\tIs the server running on host "localhost" (::1) and accepting\n\tTCP/IP connections on port 5433?\ncould not connect to server: Connection refused (0x0000274D/10061)\n\tIs the server running on host "localhost" (127.0.0.1) and accepting\n\tTCP/IP connections on port 5433?\n') 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 180, in _do_get
+    self._dec_overflow()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5433?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 91, in insert_laptops
+    existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos.get('productName')).first()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\query.py", line 2728, in first
+    return self.limit(1)._iter().first()  # type: ignore
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+  File "<string>", line 2, in _connection_for_bind
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3278, in connect
+    return self._connection_cls(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 2442, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 180, in _do_get
+    self._dec_overflow()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 901, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5433?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-05-18 23:01:25 - INFO - Laptop datas being inserted into database successfully.
+2025-05-18 23:07:33 - INFO - Laptop datas being inserted into database successfully.
+2025-05-18 23:07:35 - INFO - Laptop datas being inserted into database successfully.
+2025-05-18 23:07:37 - INFO - Laptop datas being inserted into database successfully.

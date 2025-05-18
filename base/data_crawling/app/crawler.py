@@ -156,9 +156,9 @@ def phone_crawling():
         logging.info(f'Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
         try:
-            requests.get('http://data_ingestion:8001/sending-data/dtdd')
+            requests.get('http://localhost:8001/sending-data/phone')
         except Exception as e:
-            logging.error(f'An error occurred while requesting sending data. {repr(e)}')
+            logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \ {traceback.format_exc()}')
             return {
                 'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
                 'Requesting': f'{datetime.now()}: Requesting data being sent failed. Check logs for more details.'
@@ -269,24 +269,24 @@ def laptop_crawling():
     else:
         logging.info(f'Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total')
         
-        # try:
-        #     requests.get('http://data_ingestion:8001/sending-data/dtdd')
-        # except Exception as e:
-        #     logging.error(f'An error occurred while requesting sending laptop datas. {repr(e)}')
-        #     return {
-        #         'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
-        #         'Requesting': f'{datetime.now()}: Requesting laptop datas being sent failed. Check logs for more details.'
-        #     }
-        # else:
-        #     logging.info('Requesting sending laptop datas sucessfully.')
+        try:
+            requests.get('http://localhost:8001/sending-data/laptop')
+        except Exception as e:
+            logging.error(f'An error occurred while requesting sending laptop datas. \n {repr(e)} \n {traceback.print_exc()}')
+            return {
+                'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
+                'Requesting': f'{datetime.now()}: Requesting laptop datas being sent failed. Check logs for more details.'
+            }
+        else:
+            logging.info('Requesting sending laptop datas sucessfully.')
             
-        #     return {
-        #         'Scraping' : f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
-        #         'Requesting': f'{datetime.now()}: Requesting laptop datas being sent successfully. Check logs for more details.'
-        #     }
+            return {
+                'Scraping' : f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
+                'Requesting': f'{datetime.now()}: Requesting laptop datas being sent successfully. Check logs for more details.'
+            }
 
 if __name__ == '__main__':
-    # phone_crawling()
+    phone_crawling()
     laptop_crawling()
     
 

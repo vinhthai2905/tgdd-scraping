@@ -17,9 +17,9 @@ URL_OBJECT = URL.create(
     # port=int(os.getenv('PORT'))
     username='postgres',
     password='root',
-    host='postgres_DB',
+    host='localhost',
     database='tgdd_db',
-    port=5432
+    port=5433
 )
 
 # print(os.getenv('USER_PASSWORD'))

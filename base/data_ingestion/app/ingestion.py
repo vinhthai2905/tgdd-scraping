@@ -1,6 +1,7 @@
 from pprint import pprint
 from datetime import datetime
 import logging
+import traceback
 import requests
 import json
  
@@ -16,9 +17,9 @@ def sending_phone_datas():
         with open('../landing_zone/phones.json', 'r', encoding='utf-8') as jsonFile:
             datas: dict = json.load(jsonFile)
     except Exception as e:
-        error = f'[{datetime.now()}]: Error: Check logs for more details.'
-        logging.error('An error occurred: {str(e)}')
-        logging.error('Traceback:', exc_info=True)
+        error = f'[{datetime.now()}]: Error while processing phone json file. Check logs for more errors.'
+        logging.error(f'An error occurred: \n {repr(e)} \n {traceback.format_exc()}')
+        
         return error
     else:
         for i, productInfos in datas.items():
@@ -48,17 +49,53 @@ def sending_phone_datas():
             try:
                 requests.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
-                error = f'[{datetime.now()}]: Error: Check logs for more details.'
+                error = f'[{datetime.now()}]: An error occurred while requesting inserting phone datas. Check logs for more details.'
                 pprint(error)
-                logging.error(f'An error occurred while requesting inserting datas. {repr(e)}')
+                logging.error(f'An error occurred while requesting inserting  phone datas. {repr(e)} \n {traceback.format_exc()} ')
+                
                 return error
             
-        logging.info('Data being sent successfully.')
-        result = f'[{datetime.now()}] - Data being sent sucessfully'
+        logging.info('Phone datas being sent successfully.')
+        result = f'[{datetime.now()}] - Phone datas being sent sucessfully.'
         pprint(result)
+        
         return result
     
+def sending_laptop_datas():
+    try:
+        with open('../landing_zone/laptops.json', 'r', encoding='utf-8') as jsonFile:
+            datas: dict = json.load(jsonFile)
+    except Exception as e:
+        error = f'[{datetime.now()}]: Error while processing laptop json file. Check logs for more errors.'
+        logging.error(f'An error occurred: \n {repr(e)} \n {traceback.format_exc()}')
+        return error
+    else:
+        for i, productInfos in datas.items():
+            productDict: dict = dict()
+            productInfos: dict
+            
+            productDict[i] = {
+                'product': productInfos,
+            }
+            # test = dict()
+            # test[i] = {
+            #     'choices': choiceList
+            # }
+            # pprint(productDict[i])
+            try:
+                requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+            except Exception as e:
+                error = f'[{datetime.now()}]: An error occured while requesting inserting laptop datas. Check logs for more details.'
+                logging.error(f'An error occurred while requesting inserting laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
+                
+                return error
+            
+        logging.info('Laptop datas being sent successfully.')
+        result = f'[{datetime.now()}] - Laptop datas being sent sucessfully.'
+        pprint(result)
+        
+        return result
     
 if __name__ == '__main__':
-    sending_phone_datas()
-                                                                                                                                                                                                                                                                                                                                                                                                               
+    # sending_phone_datas()
+    sending_laptop_datas()                                                                                                                                                                                                                                                                                                                                                                                                               

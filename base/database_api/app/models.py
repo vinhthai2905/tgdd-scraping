@@ -11,6 +11,7 @@ class Product(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     product_name: Mapped[str] = mapped_column(Text, nullable=False)
+    product_category = Mapped[str] = mapped_column(Text, nullable=True)
     product_image: Mapped[str] = mapped_column(Text)
     exclusive_tag: Mapped[str] = mapped_column(Text)
     product_new: Mapped[str] = mapped_column(Text)

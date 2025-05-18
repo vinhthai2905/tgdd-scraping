@@ -298,3 +298,144 @@
 2025-05-18 10:54:19 - INFO - Data being sent successfully.
 2025-05-18 10:54:24 - INFO - Data being sent successfully.
 2025-05-18 10:54:25 - INFO - Data being sent successfully.
+2025-05-18 21:33:22 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D11135DA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 21:35:34 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024BCF17DA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 21:35:36 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024BCF19C7C0>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None
+2025-05-18 21:36:09 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E2AB7BDA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 21:36:12 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001E2AB7DC7C0>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None
+2025-05-18 21:36:19 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001F2E077DA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 21:36:41 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002BB5419DA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 21:36:56 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001D62F67DA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ None 
+2025-05-18 14:51:38 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f50697b16a0>: Failed to resolve \'database_api\' ([Errno -2] Name or service not known)"))'))
+2025-05-18 22:54:16 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002481C46FA60>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 930, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x000002481C46FA60>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='database_api', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002481C46FA60>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\app\ingestion.py", line 50, in sending_phone_datas
+    requests.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='database_api', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002481C46FA60>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)"))
+ 
+2025-05-18 23:07:39 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
