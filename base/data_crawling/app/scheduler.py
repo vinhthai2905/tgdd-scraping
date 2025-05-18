@@ -8,7 +8,7 @@ from datetime import time, timedelta, datetime
 
 
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\logs\crawler.log',  
+    filename='./logs/crawler.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  #
     datefmt='%Y-%m-%d %H:%M:%S'  
@@ -17,7 +17,7 @@ logging.basicConfig(
 def schedule_phone_crawling():
     @repeat(every(5).seconds)
     def job():
-        print(f'[{datetime.now()}] Running scheduled job...')
+        print(f'[{datetime.now()}] Running scheduled job...', flush=True)
         try:
             crawler.phone_crawling()
         except Exception as e:

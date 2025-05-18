@@ -2,9 +2,9 @@
     "Item_0": {
         "productImage": "https://cdn.tgdd.vn/Products/Images/42/335925/samsung-galaxy-s25-edge-blue-thumb-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": "Mẫu mới",
+        "productNew": null,
         "productInstallment": null,
-        "productName": "Samsung Galaxy S25 Edge 5G 12GB/256GB Mẫu mới",
+        "productName": "Samsung Galaxy S25 Edge 5G 12GB/256GB",
         "productTech": "Quad HD+ (2K+) 6.7\"",
         "productChoices": [
             "256GB",
@@ -92,7 +92,7 @@
             "-",
             "256GB"
         ],
-        "productPrice": "11.490.000₫",
+        "productPrice": "11.190.000₫",
         "oldPrice": "11.990.000₫",
         "gift": null,
         "soldQuantity": "• Đã bán 9,9k",
@@ -346,7 +346,7 @@
             "-",
             "256GB"
         ],
-        "productPrice": "9.790.000₫",
+        "productPrice": "9.490.000₫",
         "oldPrice": "10.290.000₫",
         "gift": null,
         "soldQuantity": "• Đã bán 1,9k",

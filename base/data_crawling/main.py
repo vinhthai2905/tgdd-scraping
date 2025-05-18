@@ -11,7 +11,6 @@ app = FastAPI()
 @app.on_event("startup")
 def start_scheduler():
     thread = Thread(target=schedule_phone_crawling)
-    thread.daemon = True
     thread.start()
 
 

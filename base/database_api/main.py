@@ -11,7 +11,7 @@ import logging
 
 
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\logs\insert.log',  
+    filename='./logs/insert.log',  
     filemode='a',
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  
@@ -36,10 +36,12 @@ async def insert_datas_tgdd(productDict: dict, dbCon: Session = Depends(db_conne
         existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
         
         if existingProduct:
-            logging.info(f'Skipping insertion: {existingProduct.product_name} is duplicated.')
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
             print(message)
-            return {'message': message}
+            return {
+                'status': 'Duplicated product.'
+            }
+            
         else:
             product = model.Product(
             product_name=productInfos.get('productName'),

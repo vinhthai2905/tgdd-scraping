@@ -44,3 +44,257 @@
 2025-05-17 23:16:18 - INFO - Data being sent successfully.
 2025-05-17 23:16:24 - INFO - Data being sent successfully.
 2025-05-17 23:16:24 - INFO - Data being sent successfully.
+2025-05-18 15:50:19 - INFO - Data being sent successfully.
+2025-05-18 15:50:20 - INFO - Data being sent successfully.
+2025-05-18 15:50:25 - INFO - Data being sent successfully.
+2025-05-18 15:50:31 - INFO - Data being sent successfully.
+2025-05-18 15:50:42 - INFO - Data being sent successfully.
+2025-05-18 15:50:48 - INFO - Data being sent successfully.
+2025-05-18 15:50:53 - INFO - Data being sent successfully.
+2025-05-18 15:50:53 - INFO - Data being sent successfully.
+2025-05-18 15:50:59 - INFO - Data being sent successfully.
+2025-05-18 15:51:04 - INFO - Data being sent successfully.
+2025-05-18 15:52:18 - INFO - Data being sent successfully.
+2025-05-18 15:52:18 - INFO - Data being sent successfully.
+2025-05-18 15:52:23 - INFO - Data being sent successfully.
+2025-05-18 15:52:24 - INFO - Data being sent successfully.
+2025-05-18 15:52:29 - INFO - Data being sent successfully.
+2025-05-18 15:52:29 - INFO - Data being sent successfully.
+2025-05-18 15:52:36 - INFO - Data being sent successfully.
+2025-05-18 15:52:37 - INFO - Data being sent successfully.
+2025-05-18 16:35:46 - INFO - Data being sent successfully.
+2025-05-18 16:35:46 - INFO - Data being sent successfully.
+2025-05-18 16:35:52 - INFO - Data being sent successfully.
+2025-05-18 16:35:52 - INFO - Data being sent successfully.
+2025-05-18 16:35:57 - INFO - Data being sent successfully.
+2025-05-18 16:35:58 - INFO - Data being sent successfully.
+2025-05-18 16:36:03 - INFO - Data being sent successfully.
+2025-05-18 16:36:03 - INFO - Data being sent successfully.
+2025-05-18 16:36:09 - INFO - Data being sent successfully.
+2025-05-18 16:36:09 - INFO - Data being sent successfully.
+2025-05-18 16:36:15 - INFO - Data being sent successfully.
+2025-05-18 16:36:15 - INFO - Data being sent successfully.
+2025-05-18 16:36:21 - INFO - Data being sent successfully.
+2025-05-18 16:36:21 - INFO - Data being sent successfully.
+2025-05-18 16:36:26 - INFO - Data being sent successfully.
+2025-05-18 16:36:27 - INFO - Data being sent successfully.
+2025-05-18 16:36:32 - INFO - Data being sent successfully.
+2025-05-18 16:36:32 - INFO - Data being sent successfully.
+2025-05-18 16:36:38 - INFO - Data being sent successfully.
+2025-05-18 16:36:38 - INFO - Data being sent successfully.
+2025-05-18 16:36:44 - INFO - Data being sent successfully.
+2025-05-18 16:36:44 - INFO - Data being sent successfully.
+2025-05-18 16:36:49 - INFO - Data being sent successfully.
+2025-05-18 16:36:50 - INFO - Data being sent successfully.
+2025-05-18 16:36:55 - INFO - Data being sent successfully.
+2025-05-18 16:36:56 - INFO - Data being sent successfully.
+2025-05-18 16:37:01 - INFO - Data being sent successfully.
+2025-05-18 16:37:01 - INFO - Data being sent successfully.
+2025-05-18 16:37:07 - INFO - Data being sent successfully.
+2025-05-18 16:37:07 - INFO - Data being sent successfully.
+2025-05-18 16:37:13 - INFO - Data being sent successfully.
+2025-05-18 16:37:13 - INFO - Data being sent successfully.
+2025-05-18 16:37:20 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012E66A9C5E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:38:00 - INFO - Data being sent successfully.
+2025-05-18 16:38:00 - INFO - Data being sent successfully.
+2025-05-18 16:38:05 - INFO - Data being sent successfully.
+2025-05-18 16:38:06 - INFO - Data being sent successfully.
+2025-05-18 16:38:11 - INFO - Data being sent successfully.
+2025-05-18 16:38:12 - INFO - Data being sent successfully.
+2025-05-18 16:38:57 - INFO - Data being sent successfully.
+2025-05-18 16:39:02 - INFO - Data being sent successfully.
+2025-05-18 16:39:03 - INFO - Data being sent successfully.
+2025-05-18 16:39:08 - INFO - Data being sent successfully.
+2025-05-18 16:39:08 - INFO - Data being sent successfully.
+2025-05-18 16:39:14 - INFO - Data being sent successfully.
+2025-05-18 16:39:14 - INFO - Data being sent successfully.
+2025-05-18 16:39:20 - INFO - Data being sent successfully.
+2025-05-18 16:39:20 - INFO - Data being sent successfully.
+2025-05-18 16:39:25 - INFO - Data being sent successfully.
+2025-05-18 16:39:26 - INFO - Data being sent successfully.
+2025-05-18 16:39:31 - INFO - Data being sent successfully.
+2025-05-18 16:39:32 - INFO - Data being sent successfully.
+2025-05-18 16:39:39 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B709BDB80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:39:41 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B709FC520>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:39:49 - INFO - Data being sent successfully.
+2025-05-18 16:39:49 - INFO - Data being sent successfully.
+2025-05-18 16:39:57 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B709BDAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:16 - INFO - Data being sent successfully.
+2025-05-18 16:41:16 - INFO - Data being sent successfully.
+2025-05-18 16:41:22 - INFO - Data being sent successfully.
+2025-05-18 16:41:22 - INFO - Data being sent successfully.
+2025-05-18 16:41:29 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84BDC970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:32 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84BDC670>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:39 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84C182E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:41 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84C18D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:49 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA822ABBE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:51 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84BDC670>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:41:58 - INFO - Data being sent successfully.
+2025-05-18 16:41:58 - INFO - Data being sent successfully.
+2025-05-18 16:42:03 - INFO - Data being sent successfully.
+2025-05-18 16:42:04 - INFO - Data being sent successfully.
+2025-05-18 16:42:09 - INFO - Data being sent successfully.
+2025-05-18 16:42:09 - INFO - Data being sent successfully.
+2025-05-18 16:42:17 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA83BAC370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:42:19 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA84C329A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:42:25 - INFO - Data being sent successfully.
+2025-05-18 16:42:26 - INFO - Data being sent successfully.
+2025-05-18 16:42:31 - INFO - Data being sent successfully.
+2025-05-18 16:42:32 - INFO - Data being sent successfully.
+2025-05-18 16:45:28 - INFO - Data being sent successfully.
+2025-05-18 16:45:28 - INFO - Data being sent successfully.
+2025-05-18 16:45:34 - INFO - Data being sent successfully.
+2025-05-18 16:45:34 - INFO - Data being sent successfully.
+2025-05-18 16:45:40 - INFO - Data being sent successfully.
+2025-05-18 16:45:40 - INFO - Data being sent successfully.
+2025-05-18 16:45:45 - INFO - Data being sent successfully.
+2025-05-18 16:45:46 - INFO - Data being sent successfully.
+2025-05-18 16:45:51 - INFO - Data being sent successfully.
+2025-05-18 16:45:52 - INFO - Data being sent successfully.
+2025-05-18 16:45:57 - INFO - Data being sent successfully.
+2025-05-18 16:45:57 - INFO - Data being sent successfully.
+2025-05-18 16:46:05 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001710998C6A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:46:53 - INFO - Data being sent successfully.
+2025-05-18 16:46:59 - INFO - Data being sent successfully.
+2025-05-18 16:46:59 - INFO - Data being sent successfully.
+2025-05-18 16:48:21 - INFO - Data being sent successfully.
+2025-05-18 16:48:21 - INFO - Data being sent successfully.
+2025-05-18 16:48:27 - INFO - Data being sent successfully.
+2025-05-18 16:48:27 - INFO - Data being sent successfully.
+2025-05-18 16:48:34 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A221F4DB50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:48:44 - INFO - Data being sent successfully.
+2025-05-18 16:48:45 - ERROR - An error occurred while requesting inserting datas. ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)))
+2025-05-18 16:48:52 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD23ACAF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:48:54 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD23EC2B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:49:02 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD23ECCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:49:04 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD23ECCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:49:11 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD23AC670>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:49:12 - INFO - Data being sent successfully.
+2025-05-18 16:49:18 - INFO - Data being sent successfully.
+2025-05-18 16:49:18 - INFO - Data being sent successfully.
+2025-05-18 16:49:23 - INFO - Data being sent successfully.
+2025-05-18 16:49:24 - INFO - Data being sent successfully.
+2025-05-18 16:49:29 - INFO - Data being sent successfully.
+2025-05-18 16:49:29 - INFO - Data being sent successfully.
+2025-05-18 16:49:37 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /insert-product/dtdd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DD137B190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"))
+2025-05-18 16:51:35 - INFO - Data being sent successfully.
+2025-05-18 16:51:36 - INFO - Data being sent successfully.
+2025-05-18 16:51:41 - INFO - Data being sent successfully.
+2025-05-18 16:51:41 - INFO - Data being sent successfully.
+2025-05-18 16:51:47 - INFO - Data being sent successfully.
+2025-05-18 16:51:47 - INFO - Data being sent successfully.
+2025-05-18 10:30:38 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f0c581c16a0>: Failed to resolve \'database_api\' ([Errno -2] Name or service not known)"))'))
+2025-05-18 10:30:41 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f0c58201bd0>: Failed to resolve \'database_api\' ([Errno -2] Name or service not known)"))'))
+2025-05-18 10:30:50 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f0c58202350>: Failed to resolve \'database_api\' ([Errno -2] Name or service not known)"))'))
+2025-05-18 10:30:53 - ERROR - An error occurred while requesting inserting datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f0c58224180>: Failed to resolve \'database_api\' ([Errno -2] Name or service not known)"))'))
+2025-05-18 10:32:16 - INFO - Data being sent successfully.
+2025-05-18 10:32:16 - INFO - Data being sent successfully.
+2025-05-18 10:32:21 - INFO - Data being sent successfully.
+2025-05-18 10:32:22 - INFO - Data being sent successfully.
+2025-05-18 10:32:27 - INFO - Data being sent successfully.
+2025-05-18 10:32:27 - INFO - Data being sent successfully.
+2025-05-18 10:32:32 - INFO - Data being sent successfully.
+2025-05-18 10:32:33 - INFO - Data being sent successfully.
+2025-05-18 10:32:33 - INFO - Data being sent successfully.
+2025-05-18 10:32:38 - INFO - Data being sent successfully.
+2025-05-18 10:32:39 - INFO - Data being sent successfully.
+2025-05-18 10:32:44 - INFO - Data being sent successfully.
+2025-05-18 10:32:44 - INFO - Data being sent successfully.
+2025-05-18 10:32:50 - INFO - Data being sent successfully.
+2025-05-18 10:32:50 - INFO - Data being sent successfully.
+2025-05-18 10:32:55 - INFO - Data being sent successfully.
+2025-05-18 10:32:56 - INFO - Data being sent successfully.
+2025-05-18 10:33:01 - INFO - Data being sent successfully.
+2025-05-18 10:33:01 - INFO - Data being sent successfully.
+2025-05-18 10:33:06 - INFO - Data being sent successfully.
+2025-05-18 10:33:07 - INFO - Data being sent successfully.
+2025-05-18 10:33:12 - INFO - Data being sent successfully.
+2025-05-18 10:33:12 - INFO - Data being sent successfully.
+2025-05-18 10:33:18 - INFO - Data being sent successfully.
+2025-05-18 10:33:18 - INFO - Data being sent successfully.
+2025-05-18 10:33:23 - INFO - Data being sent successfully.
+2025-05-18 10:33:24 - INFO - Data being sent successfully.
+2025-05-18 10:33:29 - INFO - Data being sent successfully.
+2025-05-18 10:33:29 - INFO - Data being sent successfully.
+2025-05-18 10:33:35 - INFO - Data being sent successfully.
+2025-05-18 10:33:35 - INFO - Data being sent successfully.
+2025-05-18 10:33:40 - INFO - Data being sent successfully.
+2025-05-18 10:33:41 - INFO - Data being sent successfully.
+2025-05-18 10:33:46 - INFO - Data being sent successfully.
+2025-05-18 10:33:46 - INFO - Data being sent successfully.
+2025-05-18 10:33:52 - INFO - Data being sent successfully.
+2025-05-18 10:33:52 - INFO - Data being sent successfully.
+2025-05-18 10:33:57 - INFO - Data being sent successfully.
+2025-05-18 10:33:58 - INFO - Data being sent successfully.
+2025-05-18 10:38:57 - INFO - Data being sent successfully.
+2025-05-18 10:38:57 - INFO - Data being sent successfully.
+2025-05-18 10:39:03 - INFO - Data being sent successfully.
+2025-05-18 10:39:03 - INFO - Data being sent successfully.
+2025-05-18 10:39:08 - INFO - Data being sent successfully.
+2025-05-18 10:39:09 - INFO - Data being sent successfully.
+2025-05-18 10:39:14 - INFO - Data being sent successfully.
+2025-05-18 10:39:14 - INFO - Data being sent successfully.
+2025-05-18 10:39:20 - INFO - Data being sent successfully.
+2025-05-18 10:39:20 - INFO - Data being sent successfully.
+2025-05-18 10:39:25 - INFO - Data being sent successfully.
+2025-05-18 10:39:26 - INFO - Data being sent successfully.
+2025-05-18 10:39:31 - INFO - Data being sent successfully.
+2025-05-18 10:39:31 - INFO - Data being sent successfully.
+2025-05-18 10:39:37 - INFO - Data being sent successfully.
+2025-05-18 10:39:37 - INFO - Data being sent successfully.
+2025-05-18 10:39:42 - INFO - Data being sent successfully.
+2025-05-18 10:39:43 - INFO - Data being sent successfully.
+2025-05-18 10:39:48 - INFO - Data being sent successfully.
+2025-05-18 10:39:49 - INFO - Data being sent successfully.
+2025-05-18 10:39:54 - INFO - Data being sent successfully.
+2025-05-18 10:39:54 - INFO - Data being sent successfully.
+2025-05-18 10:40:00 - INFO - Data being sent successfully.
+2025-05-18 10:40:00 - INFO - Data being sent successfully.
+2025-05-18 10:40:05 - INFO - Data being sent successfully.
+2025-05-18 10:40:06 - INFO - Data being sent successfully.
+2025-05-18 10:40:11 - INFO - Data being sent successfully.
+2025-05-18 10:40:12 - INFO - Data being sent successfully.
+2025-05-18 10:40:17 - INFO - Data being sent successfully.
+2025-05-18 10:40:17 - INFO - Data being sent successfully.
+2025-05-18 10:40:23 - INFO - Data being sent successfully.
+2025-05-18 10:40:23 - INFO - Data being sent successfully.
+2025-05-18 10:40:28 - INFO - Data being sent successfully.
+2025-05-18 10:40:29 - INFO - Data being sent successfully.
+2025-05-18 10:40:34 - INFO - Data being sent successfully.
+2025-05-18 10:40:34 - INFO - Data being sent successfully.
+2025-05-18 10:40:40 - INFO - Data being sent successfully.
+2025-05-18 10:40:40 - INFO - Data being sent successfully.
+2025-05-18 10:40:45 - INFO - Data being sent successfully.
+2025-05-18 10:40:46 - INFO - Data being sent successfully.
+2025-05-18 10:43:33 - INFO - Data being sent successfully.
+2025-05-18 10:43:33 - INFO - Data being sent successfully.
+2025-05-18 10:43:39 - INFO - Data being sent successfully.
+2025-05-18 10:43:39 - INFO - Data being sent successfully.
+2025-05-18 10:43:44 - INFO - Data being sent successfully.
+2025-05-18 10:43:45 - INFO - Data being sent successfully.
+2025-05-18 10:43:50 - INFO - Data being sent successfully.
+2025-05-18 10:43:50 - INFO - Data being sent successfully.
+2025-05-18 10:43:56 - INFO - Data being sent successfully.
+2025-05-18 10:43:56 - INFO - Data being sent successfully.
+2025-05-18 10:44:01 - INFO - Data being sent successfully.
+2025-05-18 10:44:02 - INFO - Data being sent successfully.
+2025-05-18 10:44:07 - INFO - Data being sent successfully.
+2025-05-18 10:44:07 - INFO - Data being sent successfully.
+2025-05-18 10:49:57 - INFO - Data being sent successfully.
+2025-05-18 10:49:57 - INFO - Data being sent successfully.
+2025-05-18 10:50:02 - INFO - Data being sent successfully.
+2025-05-18 10:50:03 - INFO - Data being sent successfully.
+2025-05-18 10:50:08 - INFO - Data being sent successfully.
+2025-05-18 10:50:08 - INFO - Data being sent successfully.
+2025-05-18 10:50:14 - INFO - Data being sent successfully.
+2025-05-18 10:50:14 - INFO - Data being sent successfully.
+2025-05-18 10:50:19 - INFO - Data being sent successfully.
+2025-05-18 10:50:20 - INFO - Data being sent successfully.
+2025-05-18 10:50:25 - INFO - Data being sent successfully.
+2025-05-18 10:50:25 - INFO - Data being sent successfully.
+2025-05-18 10:54:13 - INFO - Data being sent successfully.
+2025-05-18 10:54:13 - INFO - Data being sent successfully.
+2025-05-18 10:54:19 - INFO - Data being sent successfully.
+2025-05-18 10:54:19 - INFO - Data being sent successfully.
+2025-05-18 10:54:24 - INFO - Data being sent successfully.
+2025-05-18 10:54:25 - INFO - Data being sent successfully.

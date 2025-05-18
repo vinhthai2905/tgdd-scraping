@@ -3,19 +3,17 @@ from datetime import datetime
 import logging
 import requests
 import json
-import database_api.app.db as db
-import database_api.app.models as models
  
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\logs\send_json.log',  
+    filename='./logs/send_json.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  
     datefmt='%Y-%m-%d %H:%M:%S',
 ) 
                 
-def sending_product_datas():
+def sending_phone_datas():
     try:
-        with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'r', encoding='utf-8') as jsonFile:
+        with open('../landing_zone/phones.json', 'r', encoding='utf-8') as jsonFile:
             datas: dict = json.load(jsonFile)
     except Exception as e:
         error = f'[{datetime.now()}]: Error: Check logs for more details.'
@@ -48,7 +46,7 @@ def sending_product_datas():
             #     'choices': choiceList
             # }
             try:
-                requests.post('http://127.0.0.1:8001/insert-product/dtdd', json=productDict[i])
+                requests.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}]: Error: Check logs for more details.'
                 pprint(error)
@@ -62,5 +60,5 @@ def sending_product_datas():
     
     
 if __name__ == '__main__':
-    sending_product_datas()
+    sending_phone_datas()
                                                                                                                                                                                                                                                                                                                                                                                                                

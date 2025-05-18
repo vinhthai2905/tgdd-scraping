@@ -8,7 +8,7 @@ import logging
 
 
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\logs\crawler.log',  
+    filename='./logs/crawler.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  #
     datefmt='%Y-%m-%d %H:%M:%S'  
@@ -119,13 +119,13 @@ def phone_crawling():
             
             return error            
         else:
-            with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
+            with open('../landing_zone/phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
 
     except Exception as e:
+        currentDatetime = datetime.now()
         error = f'[{datetime.now()}]: Error: Check logs for more details.'
-        logging.error(f'An error occurred: {str(e)}')
-        logging.error('Traceback:', exc_info=True)
+        logging.error('Error:', repr(e))
         print(f'[{currentDatetime}]: An error occur while extracting datas. Check logs for more details.')
         
         return {
@@ -137,7 +137,7 @@ def phone_crawling():
         logging.info(f'{currentDatetime}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
         try:
-            requests.get('http://127.0.0.1:8002/sending-data/dtdd')
+            requests.get('http://data_ingestion:8001/sending-data/dtdd')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending data. {repr(e)}')
             return {
