@@ -1339,3 +1339,790 @@ FileNotFoundError: [Errno 2] No such file or directory: '../../landing_zone/phon
 2025-05-18 10:54:30 - INFO - 2025-05-18 10:54:30.330159: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
 2025-05-18 10:54:34 - ERROR - An error occurred while requesting sending data. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'data_ingestion\', port=8001): Max retries exceeded with url: /sending-data/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fa5072a5bf0>: Failed to resolve \'data_ingestion\' ([Errno -2] Name or service not known)"))'))
 2025-05-18 10:54:34 - INFO - 2025-05-18 10:54:34.578426: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-18 19:42:09 - INFO - 2025-05-18 19:42:09.956321: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:42:13 - INFO - 2025-05-18 19:42:13.672814: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:43:14 - INFO - 2025-05-18 19:43:14.298471: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:44:58 - ERROR - An error occurred: [Errno 2] No such file or directory: '../landing_zone/laptops.json'
+2025-05-18 19:44:58 - ERROR - Traceback:
+Traceback (most recent call last):
+  File "crawler.py", line 282, in laptop_crawling
+    with open('../landing_zone/laptops.json', 'w', encoding='utf-8') as jsonFile:
+FileNotFoundError: [Errno 2] No such file or directory: '../landing_zone/laptops.json'
+2025-05-18 19:58:32 - INFO - 2025-05-18 19:58:32.487811: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:58:54 - INFO - 2025-05-18 19:58:54.459102: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:59:05 - INFO - 2025-05-18 19:59:05.562156: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 19:59:56 - INFO - 2025-05-18 19:59:56.895648: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:00:32 - INFO - 2025-05-18 20:00:32.170581: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:00:34 - INFO - 2025-05-18 20:00:34.228971: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:00:45 - INFO - 2025-05-18 20:00:45.822602: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:00:49 - INFO - 2025-05-18 20:00:49.212910: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:01:17 - INFO - 2025-05-18 20:01:17.633577: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:01:19 - INFO - 2025-05-18 20:01:19.190822: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:01:36 - INFO - 2025-05-18 20:01:36.325743: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:01:40 - INFO - 2025-05-18 20:01:40.234354: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:02:10 - INFO - 2025-05-18 20:02:10.294658: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:02:12 - INFO - 2025-05-18 20:02:12.131598: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:03:37 - INFO - 2025-05-18 20:03:37.874198: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:03:50 - INFO - 2025-05-18 20:03:50.991293: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:06:28 - INFO - 2025-05-18 20:06:28.566738: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:06:39 - INFO - 2025-05-18 20:06:39.469869: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:07:27 - INFO - 2025-05-18 20:07:27.163979: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:08:08 - INFO - 2025-05-18 20:08:08.258282: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:09:08 - INFO - 2025-05-18 20:09:08.063992: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:09:56 - INFO - 2025-05-18 20:09:56.960459: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:10:16 - INFO - 2025-05-18 20:10:16.912045: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 0 Total
+2025-05-18 20:10:38 - ERROR - Error: AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:11:18 - ERROR - Error: AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:12:47 - ERROR - Error: AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:13:38 - ERROR - Error: None
+2025-05-18 20:14:05 - ERROR - Error: <traceback object at 0x000002372AB80B40>
+2025-05-18 20:14:56 - ERROR - Error: None
+2025-05-18 20:15:06 - ERROR - Error: 'NoneType' object has no attribute 'find_all'
+2025-05-18 20:15:20 - ERROR - Error: AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:16:33 - ERROR - [2025-05-18 20:16:33.279532] Error: AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:16:33 - ERROR - Traceback (most recent call last):
+  File ".\crawler.py", line 196, in laptop_crawling
+    imageTags = productBanners.find_all('img')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+
+2025-05-18 20:18:16 - ERROR - {'Error': 'AttributeError("\'NoneType\' object has no attribute \'find_all\'")', 'Traceback': 'Traceback (most recent call last):\n  File ".\\crawler.py", line 196, in laptop_crawling\n    imageTags = productBanners.find_all(\'img\')\nAttributeError: \'NoneType\' object has no attribute \'find_all\'\n'}
+2025-05-18 20:19:19 - ERROR - AttributeError("'NoneType' object has no attribute 'find_all'")
+2025-05-18 20:19:19 - ERROR - Traceback (most recent call last):
+  File ".\crawler.py", line 196, in laptop_crawling
+    imageTags = productBanners.find_all('img')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+
+2025-05-18 20:19:58 - ERROR - AttributeError("'NoneType' object has no attribute 'find_all'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 196, in laptop_crawling
+    imageTags = productBanners.find_all('img')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+
+2025-05-18 20:21:03 - ERROR - AttributeError("'NoneType' object has no attribute 'find_all'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 196, in laptop_crawling
+    imageTags = productBanners.find_all('img')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+
+2025-05-18 20:22:03 - ERROR - UnboundLocalError("local variable 'tempList' referenced before assignment") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 226, in laptop_crawling
+    productChoices = ' '.join(tempList)
+UnboundLocalError: local variable 'tempList' referenced before assignment
+
+2025-05-18 20:31:38 - ERROR - UnboundLocalError("local variable 'tempList' referenced before assignment") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 210, in laptop_crawling
+    productChoices = ' '.join(tempList)
+UnboundLocalError: local variable 'tempList' referenced before assignment
+
+2025-05-18 20:31:46 - ERROR - UnboundLocalError("local variable 'tempList' referenced before assignment") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 210, in laptop_crawling
+    productChoices = ' '.join(tempList)
+UnboundLocalError: local variable 'tempList' referenced before assignment
+
+2025-05-18 20:32:20 - ERROR - AttributeError("'NoneType' object has no attribute 'find'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 187, in laptop_crawling
+    productTags = productHref.find('div', class_='item-label')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2025-05-18 20:33:16 - ERROR - AttributeError("'NoneType' object has no attribute 'find'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 187, in laptop_crawling
+    productTags = productHref.find('div', class_='item-label')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2025-05-18 20:34:21 - ERROR - BdbQuit() 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+2025-05-18 20:35:07 - ERROR - BdbQuit() 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+2025-05-18 20:35:11 - ERROR - BdbQuit() 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+2025-05-18 20:35:16 - ERROR - AttributeError("'NoneType' object has no attribute 'find'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 187, in laptop_crawling
+    productTags = productHref.find('div', class_='item-label')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2025-05-18 20:36:10 - ERROR - AttributeError("'NoneType' object has no attribute 'find'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 187, in laptop_crawling
+    productTags = productHref.find('div', class_='item-label')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2025-05-18 20:36:52 - ERROR - AttributeError("'NoneType' object has no attribute 'find'") 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 187, in laptop_crawling
+    productTags = productHref.find('div', class_='item-label')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+2025-05-18 20:37:17 - ERROR - BdbQuit() 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File ".\crawler.py", line 188, in laptop_crawling
+    productBanners = product.find('div', class_='item-img item-img_44')
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+2025-05-18 20:40:55 - ERROR - BdbQuit() 
+ Traceback (most recent call last):
+  File ".\crawler.py", line 188, in laptop_crawling
+    continue
+  File ".\crawler.py", line 188, in laptop_crawling
+    continue
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "D:\Anaconda\envs\KDL\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+
+2025-05-18 20:40:57 - WARNING - Missing <a> tag in product, skipping.
+2025-05-18 20:40:57 - WARNING - Missing <a> tag in product, skipping.
+2025-05-18 20:40:57 - WARNING - Missing <a> tag in product, skipping.
+2025-05-18 20:40:57 - INFO - 2025-05-18 20:40:57.912591: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 20:42:10 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 20:42:10 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 20:42:10 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 20:42:10 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 20:42:48 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 20:42:48 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 20:42:48 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 20:42:48 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:15 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:15 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:15 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:22 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:22 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:22 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:27 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:27 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:27 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:28 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:28 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:28 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:28 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:28 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:33 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:33 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:33 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:39 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:39 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:39 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:44 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:44 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:44 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:50 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:50 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:50 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:55 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:55 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:55 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:55 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:00:56 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:00:56 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:00:56 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:00:56 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:01 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:01 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:01 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:06 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:06 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:06 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:06 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:07 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:07 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:07 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:07 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:18 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:18 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:18 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:23 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:23 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:23 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:29 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:01:29 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:01:29 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:02:22 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C6C190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff3ba5774a759b486676bf118b32c4ef/element
+2025-05-18 21:02:22 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C6C8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6322047367762b2f921bf822990e151f/element
+2025-05-18 21:02:26 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C6C1C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff3ba5774a759b486676bf118b32c4ef/element
+2025-05-18 21:02:26 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C6CA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6322047367762b2f921bf822990e151f/element
+2025-05-18 21:02:30 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C6CF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff3ba5774a759b486676bf118b32c4ef/element
+2025-05-18 21:02:30 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0B9C92160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6322047367762b2f921bf822990e151f/element
+2025-05-18 21:02:53 - ERROR - ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 52, in phone_crawling
+    htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 36, in get_fullpage
+    driver.get(url)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-18 21:02:53 - ERROR - ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 52, in phone_crawling
+    htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 36, in get_fullpage
+    driver.get(url)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-18 21:02:55 - ERROR - ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 52, in phone_crawling
+    htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 40, in get_fullpage
+    btn = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'see-more-btn')))
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 363, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 748, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-18 21:02:55 - ERROR - ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 52, in phone_crawling
+    htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 36, in get_fullpage
+    driver.get(url)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-18 21:02:55 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:02:55 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:02:55 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:02:55 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:02:56 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:02:56 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:02:56 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:02:56 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:03:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:03:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:03:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:03:32 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:03:44 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:04:03 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:04:03 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:04:03 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:04:03 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:04:16 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:04:16 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:04:16 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:04:16 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:04:40 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:04:52 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:05:12 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:05:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:05:12 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:05:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:05:24 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:05:24 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:05:24 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:05:24 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:05:48 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:06:00 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:06:20 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:06:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:06:20 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:06:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:06:32 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:06:32 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:06:32 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:06:32 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:06:57 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:07:08 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:07:28 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:07:29 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:07:29 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:07:29 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:07:42 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:07:42 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:07:42 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:07:42 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:08:05 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:08:19 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:08:37 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:08:37 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:08:37 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:08:37 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:08:51 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:08:51 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:08:51 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:08:51 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:08:51 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:08:52 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:08:52 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:08:52 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:08:52 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:09:04 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:09:13 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-18 21:09:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:09:20 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:09:20 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:09:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-18 21:09:21 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-18 21:09:21 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-18 21:09:21 - WARNING - Missing <a> tag in product 6, skipping.
+2025-05-18 21:09:21 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
