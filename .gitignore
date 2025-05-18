@@ -1,3 +1,5 @@
 __pycache__
 .env
 postgres_data
+landing_zone
+logs
