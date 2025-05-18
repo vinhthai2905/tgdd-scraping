@@ -5,7 +5,14 @@ import requests
 import traceback
 import json
 import logging
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, NoSuchElementException
 
+import time
 
 logging.basicConfig(
     filename='./logs/crawler.log',  
@@ -19,10 +26,30 @@ headers = {
 }
 
 datas = dict()
+def get_fullpage(url):
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-gpu')
+
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.get(url)
+    wait = WebDriverWait(driver, 10) 
+    while True:
+        try:
+            btn = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'see-more-btn')))
+            driver.execute_script("arguments[0].click();", btn)
+            time.sleep(2)
+        except (TimeoutException, ElementClickInterceptedException, NoSuchElementException):
+            break
+
+    html = driver.page_source
+    driver.quit()
+    return html  
 
 def phone_crawling():
     try:
-        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
+        htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
@@ -42,7 +69,6 @@ def phone_crawling():
                 productPrice = product.find('strong', class_='price').text
                 
                 imageTags = productBanners.find_all('img')
-                
                 if len(imageTags) == 2:
                     productImageURL = imageTags[0].get('data-src')
                     if productImageURL == None:
