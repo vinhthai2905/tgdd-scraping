@@ -1,0 +1,6 @@
+bs4
+requests
+schedule
+fastapi
+uvicorn
+lxml
