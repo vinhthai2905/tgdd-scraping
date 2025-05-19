@@ -25,13 +25,13 @@ The websites in which product datas are being scraped:
 
 ### Core Packages:
 
-⚡ [FastAPI](https://fastapi.tiangolo.com/) - Used for building microservices for scraping and inserting datas.
+⚡ [FastAPI](https://fastapi.tiangolo.com/) - Used for building microservices for scraping and inserting data.
 
 ⚛️ [React](https://react.dev/) - Used for building dynamic front-end.
 
 🧪 [SQLAlchemy](https://www.sqlalchemy.org/) - Used for opening connections towards the database engine and performing queries.
 
-✅ [Pydantic](https://docs.pydantic.dev/latest/) - Used for validating incoming datas through API endpoints.
+✅ [Pydantic](https://docs.pydantic.dev/latest/) - Used for validating incoming data through API endpoints.
 
 ### Web Scraping Packages
 
