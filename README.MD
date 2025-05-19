@@ -1,7 +1,7 @@
 # TGDD Scraping Documents:
-A simple API built with FastAPI and PostgreSQL, being containerized using Docker. The main goal is to scraping products.
+A simple API built with FastAPI and PostgreSQL, containerized using Docker. The main goal is to scrape product data.
 
-The websites in which product datas are being scraped:
+The websites from which product data is scraped:
 
 ### 🌐 Sources:
 
@@ -27,17 +27,17 @@ The websites in which product datas are being scraped:
 
 ### Core Packages:
 
-⚡ [FastAPI](https://fastapi.tiangolo.com/) - Used for building microservices for scraping and inserting datas.
+⚡ [FastAPI](https://fastapi.tiangolo.com/) - Used for building microservices for scraping and data ingestion.
 
-⚛️ [React](https://react.dev/) - Used for building dynamic front-end.
+⚛️ [React](https://react.dev/) - Used for building dynamic front-end interfaces.
 
 🧪 [SQLAlchemy](https://www.sqlalchemy.org/) - Used for opening connections towards the database engine and performing queries.
 
-✅ [Pydantic](https://docs.pydantic.dev/latest/) - Used for validating incoming datas through API endpoints.
+✅ [Pydantic](https://docs.pydantic.dev/latest/) - Used for validating incoming data through API endpoints.
 
 ### Web Scraping Packages
 
-🍜 [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Used for catching static html tags.
+🍜 [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Used for parsing static html tags.
 
 🤖 [Selenium](https://www.selenium.dev/documentation/) - Used for automated browsing and handling dynamic content.
 
@@ -48,12 +48,12 @@ The websites in which product datas are being scraped:
 📝 [Logging](https://docs.python.org/3/library/logging.html) - Used for writing logs for examining the results.
 
 ## Tasks List:
-- ✅ Data Crawling API Serivce
+- ✅ Data Crawling API Service
 - ✅ Data Ingestion API Service
 - ✅ Database API Service
 - ✅ Web Page Service
 - ✅ Database Service
-- ✅ nginx Service
+- ✅ Nginx Service
 - ✅ Logging
 - ✅ Containerized Services
  
