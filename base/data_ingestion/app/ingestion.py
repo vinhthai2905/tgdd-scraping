@@ -4,6 +4,8 @@ import logging
 import traceback
 import requests
 import json
+import httpx
+import asyncio
  
 logging.basicConfig(
     filename='./logs/send_json.log',  
@@ -12,7 +14,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S',
 ) 
                 
-def sending_phone_datas():
+async def sending_phone_datas():
     try:
         with open('../landing_zone/phones.json', 'r', encoding='utf-8') as jsonFile:
             datas: dict = json.load(jsonFile)
@@ -47,7 +49,8 @@ def sending_phone_datas():
             #     'choices': choiceList
             # }
             try:
-                requests.post('http://localhost:8002/insert-product/dtdd', json=productDict[i])
+                async with httpx.AsyncClient(timeout=20.0) as client:
+                    await client.post('http://localhost:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}]: An error occurred while requesting inserting phone datas. Check logs for more details.'
                 pprint(error)
@@ -55,13 +58,12 @@ def sending_phone_datas():
                 
                 return error
             
-        logging.info('Phone datas being sent successfully.')
         result = f'[{datetime.now()}] - Phone datas being sent sucessfully.'
         pprint(result)
         
         return result
     
-def sending_laptop_datas():
+async def sending_laptop_datas():
     try:
         with open('../landing_zone/laptops.json', 'r', encoding='utf-8') as jsonFile:
             datas: dict = json.load(jsonFile)
@@ -83,7 +85,8 @@ def sending_laptop_datas():
             # }
             # pprint(productDict[i])
             try:
-                requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+                async with httpx.AsyncClient() as client:
+                    await client.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}] - An error occured while requesting inserting laptop datas. Check logs for more details.'
                 logging.error(f'An error occurred while requesting inserting laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
@@ -91,7 +94,6 @@ def sending_laptop_datas():
                 
                 return error
             
-        logging.info('Laptop datas being sent successfully.')
         result = f'[{datetime.now()}] - Laptop datas being sent sucessfully.'
         pprint(result)
         

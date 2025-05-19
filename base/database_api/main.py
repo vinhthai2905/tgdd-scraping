@@ -2,7 +2,8 @@ from pprint import pprint
 from fastapi import FastAPI, Depends, Request
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from app.db import db_connection
+from sqlalchemy.future import select
+from app.db import db_connection, get_async_session
 from datetime import datetime
 import app.models as model
 import app.schemas as schema
@@ -30,10 +31,15 @@ def get_product(dbCon: Session = Depends(db_connection)):
         
 
 @app.post('/insert-product/dtdd')
-def insert_phones(productDict: dict, dbCon: Session = Depends(db_connection)):
+async def insert_phones(productDict: dict, dbCon: Session = Depends(get_async_session)):
     try:
         productInfos: dict = productDict.get('product')
-        existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos['productName']).first()
+        
+        result = await dbCon.execute(
+            select(model.Product).
+            where(model.Product.product_name == productInfos['productName']))
+        
+        existingProduct = result.scalars().first()
         
         if existingProduct:
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
@@ -59,13 +65,13 @@ def insert_phones(productDict: dict, dbCon: Session = Depends(db_connection)):
         )
         
             dbCon.add(product)
-            dbCon.flush()
+            await dbCon.flush()
             
             for choice in productDict.get('choices'):
                 choiceObject = model.ProductChoice(product_id=product.id, choice=choice)
                 dbCon.add(choiceObject)
 
-            dbCon.commit()
+            await dbCon.commit()
             
     except Exception as e:
         logging.error(f'An error occurred while inserting phone datas. \n {repr(e)} \n {traceback.format_exc()}')
@@ -80,15 +86,15 @@ def insert_phones(productDict: dict, dbCon: Session = Depends(db_connection)):
         return {'Inserting': 'Inserted phone datas into database successfully.'}
     
 @app.post('/insert-product/laptop')
-def insert_laptops(productDict: dict, dbCon: Session = Depends(db_connection)):
+async def insert_laptops(productDict: dict, dbCon: Session = Depends(get_async_session)):
     try:
         productInfos: dict = productDict.get('product')
         
         # if not productInfos or not isinstance(productInfos, dict):
         #     logging.error("Invalid or missing 'product' key in received data.")
         #     return {'status': 'Invalid product data.'}
-        
-        existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos.get('productName')).first()
+        result = await dbCon.execute(select(model.Product).where(model.Product.product_name == productInfos['productName']))
+        existingProduct = result.scalars().first()
         
         if existingProduct:
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
@@ -115,9 +121,9 @@ def insert_laptops(productDict: dict, dbCon: Session = Depends(db_connection)):
         )
         
             dbCon.add(product)
-            dbCon.flush()
+            await dbCon.flush()
 
-            dbCon.commit()
+            await dbCon.commit()
             
     except Exception as e:
         logging.error(f'An error occurred while inserting laptop datas. \n {repr(e)} \n {traceback.format_exc()}')

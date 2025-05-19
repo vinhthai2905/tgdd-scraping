@@ -1,18 +1,20 @@
-from bs4 import BeautifulSoup, Tag
-from pprint import pprint
-from datetime import datetime
+import time
 import requests
 import traceback
 import json
 import logging
+import httpx
+import asyncio
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, NoSuchElementException
+from bs4 import BeautifulSoup, Tag
+from pprint import pprint
+from datetime import datetime
 
-import time
 
 logging.basicConfig(
     filename='./logs/crawler.log',  
@@ -47,7 +49,7 @@ def get_fullpage(url):
     driver.quit()
     return html  
 
-def phone_crawling():
+async def phone_crawling():
     try:
         htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
@@ -163,7 +165,8 @@ def phone_crawling():
         logging.info(f'Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
         try:
-            requests.get('http://localhost:8001/sending-data/phone')
+            async with httpx.AsyncClient(timeout=50) as client:
+                await client.get('http://localhost:8001/sending-data/phone')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \ {traceback.format_exc()}')
             return {
@@ -179,7 +182,7 @@ def phone_crawling():
             }
 
 
-def laptop_crawling():
+async def laptop_crawling():
     try:
         htmlText = requests.get('https://www.thegioididong.com/laptop#c=44&o=13&pi=0', headers=headers).text
         laptopSoup = BeautifulSoup(htmlText, 'lxml')
@@ -283,7 +286,8 @@ def laptop_crawling():
         logging.info(f'Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total')
         
         try:
-            requests.get('http://localhost:8001/sending-data/laptop')
+            async with httpx.AsyncClient(timeout=10.0) as client:
+                await client.get('http://localhost:8001/sending-data/laptop')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
             return {

@@ -5,9 +5,9 @@ app = FastAPI()
 
 
 @app.get('/sending-data/phone')
-def send_data_phone():
-    return sending_phone_datas()
+async def send_data_phone():
+    return await sending_phone_datas()
 
 @app.get('/sending-data/laptop')
-def send_data_laptop():
-    return sending_laptop_datas()
+async def send_data_laptop():
+    return await sending_laptop_datas()

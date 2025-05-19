@@ -1,17 +1,17 @@
 {
     "Item_0": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335925/samsung-galaxy-s25-edge-blue-thumb-600x600.jpg",
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335955/samsung-galaxy-s25-edge-sliver-thumb-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": null,
+        "productNew": "Mẫu mới",
         "productInstallment": null,
-        "productName": "Samsung Galaxy S25 Edge 5G 12GB/256GB",
+        "productName": "Samsung Galaxy S25 Edge 5G 12GB/512GB Mẫu mới",
         "productCategory": "Mobile Phone",
         "productTech": "Quad HD+ (2K+) 6.7\"",
         "productChoices": [
-            "256GB",
-            "512GB"
+            "512GB",
+            "256GB"
         ],
-        "productPrice": "29.990.000₫",
+        "productPrice": "33.490.000₫",
         "oldPrice": null,
         "gift": "Trả chậm 0% lãi suất + Ưu đãi đến 10 Triệu đồng",
         "soldQuantity": null,
@@ -1213,7 +1213,7 @@
             "6GB",
             "4GB"
         ],
-        "productPrice": null,
+        "productPrice": "29.990.000₫",
         "oldPrice": null,
         "gift": null,
         "soldQuantity": "• Đã bán 476",
@@ -2047,28 +2047,28 @@
         "star": "4.9"
     },
     "Item_100": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/328605/realme-c65s-blue-thumb-1-600x600.jpg",
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/328625/realme-c65s-green-thumb-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
         "productNew": null,
         "productInstallment": null,
-        "productName": "realme C65s 6GB/128GB",
+        "productName": "realme C65s 8GB/128GB",
         "productCategory": "Mobile Phone",
         "productTech": "HD+ 6.745 \"",
         "productChoices": [
-            "6GB",
+            "8GB",
             "-",
             "128GB",
-            "8GB",
+            "6GB",
             "-",
             "128GB",
             "8GB",
             "-",
             "256GB"
         ],
-        "productPrice": "4.290.000₫",
+        "productPrice": "4.790.000₫",
         "oldPrice": null,
         "gift": "Quà 900.000₫",
-        "soldQuantity": "• Đã bán 22,4k",
+        "soldQuantity": "• Đã bán 14,1k",
         "star": "4.9"
     },
     "Item_101": {
@@ -2439,8 +2439,8 @@
         "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.72\"",
         "productChoices": [
-            "8GB",
-            "6GB"
+            "256GB",
+            "512GB"
         ],
         "productPrice": "5.390.000₫",
         "oldPrice": "5.490.000₫",
@@ -2457,8 +2457,8 @@
         "productCategory": "Mobile Phone",
         "productTech": "HD+ 6.56\"",
         "productChoices": [
-            "8GB",
-            "6GB"
+            "256GB",
+            "512GB"
         ],
         "productPrice": "3.990.000₫",
         "oldPrice": "4.490.000₫",
@@ -2475,8 +2475,8 @@
         "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.5\"",
         "productChoices": [
-            "8GB",
-            "6GB"
+            "256GB",
+            "512GB"
         ],
         "productPrice": "4.490.000₫",
         "oldPrice": "4.990.000₫",
@@ -2493,8 +2493,8 @@
         "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.78\"",
         "productChoices": [
-            "8GB",
-            "6GB"
+            "256GB",
+            "512GB"
         ],
         "productPrice": "4.490.000₫",
         "oldPrice": null,

@@ -1,6 +1,8 @@
 from pprint import pprint
 import requests
-import schedule
+# import schedule
+import asyncio
+import aioschedule as schedule
 import logging
 from app import crawler
 from schedule import every, repeat
@@ -14,29 +16,29 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'  
 )
 
-def schedule_laptop_crawling():
-    @repeat(every(5).seconds)
-    def laptop_job():
+async def schedule_laptop_crawling():
+    async def laptop_job():
         print(f'[{datetime.now()}] Running scheduled laptop job...', flush=True)
         try:
-            crawler.laptop_crawling()
+            result = await crawler.laptop_crawling()
         except Exception as e:
-            pprint(crawler.laptop_crawling())
-        else:
-            pprint(crawler.laptop_crawling())
+            result = e
+        pprint(result)
+    schedule.every(5).seconds.do(laptop_job)
     while True:
-        schedule.run_pending()
+        await schedule.run_pending()
+        await asyncio.sleep(1)
 
-def schedule_phone_crawling():
-    @repeat(every(5).seconds)
-    def phone_job():
+async def schedule_phone_crawling():
+    async def phone_job():
         print(f'[{datetime.now()}] Running scheduled phone job...', flush=True)
         try:
-            crawler.phone_crawling()
+            result = await crawler.phone_crawling()
         except Exception as e:
-            pprint(crawler.phone_crawling())
-        else:
-            pprint(crawler.phone_crawling())
+            result = e
+        pprint(result)
+    schedule.every(5).seconds.do(phone_job)
     while True:
-        schedule.run_pending()
+        await schedule.run_pending()
+        await asyncio.sleep(1)
     
