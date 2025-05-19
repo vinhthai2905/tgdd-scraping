@@ -288,24 +288,25 @@
         "oldPrice": null,
         "gift": null,
         "soldQuantity": "• Đã bán 196",
-        "star": "5"
+        "star": "4.9"
     },
     "Item_15": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329140/iphone-16-plus-xanh.png",
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329138/iphone-16-plus-xanh-thumb-600x600.jpg",
         "exclusiveTag": null,
         "productNew": null,
         "productInstallment": null,
-        "productName": "iPhone 16 Plus 256GB",
+        "productName": "iPhone 16 Plus 128GB",
         "productCategory": "Mobile Phone",
         "productTech": "Super Retina XDR 6.7\"",
         "productChoices": [
+            "128GB",
             "256GB",
             "512GB"
         ],
-        "productPrice": "25.490.000₫",
-        "oldPrice": "28.990.000₫",
+        "productPrice": "22.290.000₫",
+        "oldPrice": "25.990.000₫",
         "gift": "Quà 500.000₫",
-        "soldQuantity": "• Đã bán 3,9k",
+        "soldQuantity": "• Đã bán 10,6k",
         "star": "4.9"
     },
     "Item_16": {

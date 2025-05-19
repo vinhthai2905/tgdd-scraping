@@ -50,7 +50,7 @@ async def sending_phone_datas():
             # }
             try:
                 async with httpx.AsyncClient(timeout=20.0) as client:
-                    await client.post('http://0.0.0.0:8002/insert-product/dtdd', json=productDict[i])
+                    await client.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}]: An error occurred while requesting inserting phone datas. Check logs for more details.'
                 pprint(error)
