@@ -5,19 +5,19 @@ import json
 import logging
 import httpx
 import asyncio
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, NoSuchElementException
+# from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.by import By
+# from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, NoSuchElementException
 from bs4 import BeautifulSoup, Tag
 from pprint import pprint
 from datetime import datetime
 
 
 logging.basicConfig(
-    filename='./logs/crawler.log',  
+    filename=r'C:\code\cdnnlt\TGDD_Scraping\base\data_crawling\logs\crawler.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  #
     datefmt='%Y-%m-%d %H:%M:%S'  
@@ -28,36 +28,38 @@ headers = {
 }
 
 datas = dict()
-def get_fullpage(url):
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-gpu')
+# def get_fullpage(url):
+#     chrome_options = Options()
+#     chrome_options.add_argument('--headless')
+#     chrome_options.add_argument('--no-sandbox')
+#     chrome_options.add_argument('--disable-gpu')
 
-    driver = webdriver.Chrome(options=chrome_options)
-    driver.get(url)
-    wait = WebDriverWait(driver, 10) 
-    while True:
-        try:
-            btn = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'see-more-btn')))
-            driver.execute_script("arguments[0].click();", btn)
-            time.sleep(2)
-        except (TimeoutException, ElementClickInterceptedException, NoSuchElementException):
-            break
+#     driver = webdriver.Chrome(options=chrome_options)
+#     driver.get(url)
+#     wait = WebDriverWait(driver, 10) 
+#     while True:
+#         try:
+#             btn = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'see-more-btn')))
+#             driver.execute_script("arguments[0].click();", btn)
+#             time.sleep(2)
+#         except (TimeoutException, ElementClickInterceptedException, NoSuchElementException):
+#             break
 
-    html = driver.page_source
-    driver.quit()
-    return html  
+#     html = driver.page_source
+#     driver.quit()
+#     return html  
 
 async def phone_crawling():
     try:
-        htmlText = get_fullpage('https://www.thegioididong.com/dtdd')
+        htmlText = requests.get('https://www.thegioididong.com/dtdd#c=42&o=13&pi=0', headers=headers).text
         phoneSoup = BeautifulSoup(htmlText, 'lxml')
         phoneInfos = phoneSoup.find('ul', class_='listproduct')
         productChoices = str()
         itemCount = 0
         try:
             for i, product in enumerate(phoneInfos.find_all('li', class_='item ajaxed __cate_42')):
+                if i >= 30:
+                    break
                 itemCount = itemCount + 1
                 productHref = product.find('a')
                 productBanners = product.find('div', class_='item-img item-img_42')
@@ -151,7 +153,7 @@ async def phone_crawling():
             
             return 'An error occurred while extracting phone datas after requesting sucessfully from the source. Check logs for more details.'           
         else:
-            with open('../landing_zone/phones.json', 'w', encoding='utf-8') as jsonFile:
+            with open(r'C:\code\cdnnlt\TGDD_Scraping\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
             print(f'[{datetime.now()}]: Extracting phone datas from the source successfully.')
             
@@ -168,7 +170,7 @@ async def phone_crawling():
             async with httpx.AsyncClient(timeout=50) as client:
                 await client.get('http://localhost:8001/sending-data/phone')
         except Exception as e:
-            logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \ {traceback.format_exc()}')
+            logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \n {traceback.format_exc()}')
             return {
                 'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
                 'Requesting': f'{datetime.now()}: Requesting phone datas being sent failed. Check logs for more details.'
@@ -190,6 +192,8 @@ async def laptop_crawling():
         itemCount = 0
         try:
             for i, product in enumerate(laptopInfos.find_all('li', class_=['item', '__cate_44'])):
+                if i >= 30:
+                    break
                 itemCount = itemCount + 1
                 
                 productHref = product.find('a')

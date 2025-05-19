@@ -24,7 +24,7 @@ async def schedule_laptop_crawling():
         except Exception as e:
             result = e
         pprint(result)
-    schedule.every(5).seconds.do(laptop_job)
+    schedule.every(5).seconds.do(lambda: asyncio.create_task(laptop_job()))
     while True:
         await schedule.run_pending()
         await asyncio.sleep(1)
@@ -37,7 +37,7 @@ async def schedule_phone_crawling():
         except Exception as e:
             result = e
         pprint(result)
-    schedule.every(5).seconds.do(phone_job)
+    schedule.every(5).seconds.do(lambda: asyncio.create_task(phone_job()))
     while True:
         await schedule.run_pending()
         await asyncio.sleep(1)
