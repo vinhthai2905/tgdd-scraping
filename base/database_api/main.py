@@ -1,11 +1,14 @@
-from pprint import pprint
-from fastapi import FastAPI, Depends, Request
+from fastapi import FastAPI, Depends, Request, Path, HTTPException
 from fastapi.encoders import jsonable_encoder
+from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
-from sqlalchemy import text
 from sqlalchemy.future import select
+from sqlalchemy import text, or_, func
+from typing import List
+from app.schemas import ProductRead
 from app.db import db_connection, get_async_session
 from datetime import datetime
+from pprint import pprint
 import app.models as model
 import app.schemas as schema
 import logging
@@ -22,6 +25,26 @@ logging.basicConfig(
 
 app = FastAPI()
 
+    
+@app.get('/site/{category}/products')
+async def get_products_by_category(
+    category: str = Path(..., description="Product category (e.g. 'Mobile Phone', 'Laptop')"),
+    dbCon: Session = Depends(get_async_session)
+):
+    try:
+        result = await dbCon.execute(
+            select(model.Product).where(model.Product.product_category == category)
+        )
+        products = result.scalars().all()
+        return jsonable_encoder(products)
+    
+    except Exception as e:
+        logging.error(f"Error fetching products for category '{category}': {repr(e)}\n{traceback.format_exc()}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Unable to fetch products for category '{category}'."}
+        )
+        
 @app.get('/products')
 async def get_product(dbCon: Session = Depends(get_async_session)):
     try:

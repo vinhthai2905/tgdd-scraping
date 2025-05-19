@@ -1,9 +1,9 @@
-from pprint import pprint
 import requests
 import asyncio
 import aioschedule
 import logging
 from app import crawler
+from pprint import pprint
 from datetime import time, timedelta, datetime
 
 
@@ -19,7 +19,7 @@ async def schedule_job(job_fn, interval_seconds: int, label: str):
         try:
             print(f'[{datetime.now()}] Running {label} job...', flush=True)
             result = await job_fn()
-            logging.info(f"{label} job completed")
+            pprint(result)            
         except Exception as e:
             logging.error(f"{label} job failed: {e}")
         await asyncio.sleep(interval_seconds)
