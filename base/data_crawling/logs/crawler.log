@@ -5177,3 +5177,79 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetErro
 2025-05-19 09:03:20 - WARNING - Missing <a> tag in product 4, skipping.
 2025-05-19 09:03:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
 2025-05-19 09:03:26 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:05:49 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:05:49 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:05:49 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:05:49 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:06:32 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:06:32 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:06:32 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:06:32 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:06:32 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:07:15 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:07:20 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:07:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:07:20 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:07:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:08:03 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:08:03 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:08:03 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:08:03 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:08:03 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:08:46 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:08:57 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:08:57 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:08:57 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:08:57 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:09:12 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:09:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:09:12 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:09:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:09:22 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:09:22 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:09:22 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:09:22 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:35:32 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:35:32 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:35:32 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:35:32 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:36:15 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:37:15 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 124 Total
+2025-05-19 09:37:17 - INFO - Requesting sending datas sucessfully.
+2025-05-19 09:39:47 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 124 Total
+2025-05-19 09:39:51 - INFO - Requesting sending datas sucessfully.
+2025-05-19 09:42:10 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 124 Total
+2025-05-19 09:42:12 - INFO - Requesting sending datas sucessfully.
+2025-05-19 09:45:13 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 124 Total
+2025-05-19 09:45:15 - INFO - Requesting sending datas sucessfully.
+2025-05-19 09:50:24 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-19 09:51:28 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-19 09:53:36 - ERROR - AttributeError("'NoneType' object has no attribute 'text'") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 69, in phone_crawling
+    productPrice = product.find('strong', class_='price').text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+2025-05-19 09:55:18 - ERROR - UnboundLocalError("local variable 'productPrice' referenced before assignment") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 70, in phone_crawling
+    if productPrice:
+UnboundLocalError: local variable 'productPrice' referenced before assignment
+
+2025-05-19 09:56:16 - ERROR - UnboundLocalError("local variable 'productPrice' referenced before assignment") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 70, in phone_crawling
+    if productPrice:
+UnboundLocalError: local variable 'productPrice' referenced before assignment
+
+2025-05-19 09:58:10 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 124 Total

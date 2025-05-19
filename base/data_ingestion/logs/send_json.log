@@ -1173,3 +1173,68 @@ Traceback (most recent call last):
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FD2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
 
+2025-05-19 09:06:32 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:07:15 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:08:03 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:08:46 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:09:40 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:36:15 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:39:51 - ERROR - An error occurred while requesting inserting  phone datas. ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'database_api\', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CB038CCE20>: Failed to resolve \'database_api\' ([Errno 11001] getaddrinfo failed)"))')) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 930, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x000001CB038CCE20>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='database_api', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CB038CCE20>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 50, in sending_phone_datas
+    requests.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='database_api', port=8002): Max retries exceeded with url: /insert-product/dtdd (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CB038CCE20>: Failed to resolve 'database_api' ([Errno 11001] getaddrinfo failed)"))
+ 

@@ -4033,3 +4033,136 @@ NameError: name 'ex' is not defined
 2025-05-19 09:01:57 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
 2025-05-19 09:01:59 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
 2025-05-19 09:02:09 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:05:53 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:05:55 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:05:57 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:05:59 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:06:01 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:06:03 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:06:05 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:06:08 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:06:10 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:06:12 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:06:14 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:06:16 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:06:18 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:06:20 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:06:22 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:06:24 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:06:26 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:06:28 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:06:30 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:06:32 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:06:36 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:06:38 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:06:40 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:06:42 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:06:44 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:06:47 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:06:49 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:06:51 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:06:53 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:06:55 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:06:57 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:06:59 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:07:01 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:07:03 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:07:05 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:07:07 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:07:09 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:07:11 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:07:13 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:07:15 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:07:24 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:07:26 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:07:28 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:07:30 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:07:32 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:07:34 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:07:36 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:07:39 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:07:41 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:07:43 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:07:45 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:07:47 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:07:49 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:07:51 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:07:53 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:07:55 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:07:57 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:07:59 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:08:01 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:08:03 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:08:07 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:08:09 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:08:11 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:08:13 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:08:16 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:08:18 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:08:20 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:08:22 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:08:24 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:08:26 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:08:28 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:08:30 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:08:32 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:08:34 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:08:36 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:08:38 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:08:40 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:08:42 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:08:44 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:08:46 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:09:01 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:09:03 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:09:05 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:09:07 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:09:09 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:09:11 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:09:13 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:09:15 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:09:18 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:09:20 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:09:22 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:09:24 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:09:26 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:09:26 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:09:28 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:09:28 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:09:30 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:09:30 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:09:32 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:09:32 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:09:34 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:09:34 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:09:36 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:09:36 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:09:38 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:09:38 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:09:40 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:09:40 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:09:42 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:09:44 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:09:47 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:09:49 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:09:51 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:35:36 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated
+2025-05-19 09:35:38 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:35:40 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:35:42 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:35:44 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:35:46 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:35:49 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:35:51 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:35:53 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:35:55 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:35:57 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:35:59 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:36:01 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:36:03 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:36:05 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:36:07 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:36:09 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:36:11 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:36:13 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:36:15 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated

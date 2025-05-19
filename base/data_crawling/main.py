@@ -8,12 +8,12 @@ from app.scheduler import schedule_phone_crawling, schedule_laptop_crawling
 app = FastAPI()
 
 
-@app.on_event('startup')
-def start_all_schedulers():
-    # phone_thread = Thread(target=schedule_phone_crawling, daemon=True)
-    laptop_thread = Thread(target=schedule_laptop_crawling, daemon=True)
-    # phone_thread.start()
-    laptop_thread.start()
+# @app.on_event('startup')
+# def start_all_schedulers():
+#     # phone_thread = Thread(target=schedule_phone_crawling, daemon=True)
+#     laptop_thread = Thread(target=schedule_laptop_crawling, daemon=True)
+#     # phone_thread.start()
+#     laptop_thread.start()
 
 
 @app.get('/crawling/dtdd/')

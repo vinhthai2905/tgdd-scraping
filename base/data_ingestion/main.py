@@ -4,7 +4,7 @@ from app.ingestion import sending_phone_datas, sending_laptop_datas
 app = FastAPI()
 
 
-@app.get('/sending-data/dtdd')
+@app.get('/sending-data/phone')
 def send_data_phone():
     return sending_phone_datas()
 

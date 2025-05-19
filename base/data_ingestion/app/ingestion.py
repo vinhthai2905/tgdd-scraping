@@ -47,7 +47,7 @@ def sending_phone_datas():
             #     'choices': choiceList
             # }
             try:
-                requests.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
+                requests.post('http://localhost:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
                 error = f'[{datetime.now()}]: An error occurred while requesting inserting phone datas. Check logs for more details.'
                 pprint(error)

@@ -66,7 +66,12 @@ def phone_crawling():
                 
                 productName = ' '.join(product.find('h3').getText().split())
                 productTech = ' '.join(product.find('div', class_='item-compare gray-bg').getText().split())
-                productPrice = product.find('strong', class_='price').text
+                productPrice = product.find('strong', class_='price')
+                
+                if productPrice:
+                    productPrice = product.find('strong', class_='price').text
+                else:
+                    productPrice = None
                 
                 imageTags = productBanners.find_all('img')
                 if len(imageTags) == 2:
@@ -163,14 +168,14 @@ def phone_crawling():
             logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \ {traceback.format_exc()}')
             return {
                 'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
-                'Requesting': f'{datetime.now()}: Requesting data being sent failed. Check logs for more details.'
+                'Requesting': f'{datetime.now()}: Requesting phone datas being sent failed. Check logs for more details.'
             }
         else:
             logging.info('Requesting sending datas sucessfully.')
             
             return {
                 'Scraping' : f'{datetime.now()}: Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total',
-                'Requesting': f'{datetime.now()}: Requesting data being sent successfully. Check logs for more details.'
+                'Requesting': f'{datetime.now()}: Requesting phone datas being sent successfully. Check logs for more details.'
             }
 
 
@@ -197,7 +202,12 @@ def laptop_crawling():
                 
                 productName = ' '.join(product.find('h3').getText().split())
                 productTech = ' '.join(product.find('div', class_='item-compare gray-bg').getText().split())
-                productPrice = product.find('strong', class_='price').text
+                productPrice = product.find('strong', class_='price')
+                
+                if productPrice:
+                    productPrice = product.find('strong', class_='price').text
+                else:
+                    productPrice = None
                 
                 imageTags = productBanners.find_all('img')
                 
@@ -282,7 +292,6 @@ def laptop_crawling():
             }
         else:
             logging.info('Requesting sending laptop datas sucessfully.')
-            
             return {
                 'Scraping' : f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
                 'Requesting': f'{datetime.now()}: Requesting laptop datas being sent successfully. Check logs for more details.'
