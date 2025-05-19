@@ -58,6 +58,76 @@
         "soldQuantity": "• Đã bán 163,8k",
         "star": "4.9"
     },
+    "Item_3": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329143/iphone-16-pro-titan-trang.png",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "iPhone 16 Pro 128GB",
+        "productCategory": "Mobile Phone",
+        "productTech": "Super Retina XDR 6.3\"",
+        "productChoices": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB"
+        ],
+        "productPrice": "25.090.000₫",
+        "oldPrice": "28.990.000₫",
+        "gift": "Quà 500.000₫",
+        "soldQuantity": "• Đã bán 18,3k",
+        "star": "4.9"
+    },
+    "Item_4": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/334932/samsung-galaxy-a56-5g-gray-thumb-1-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Samsung Galaxy A56 5G 12GB/256GB",
+        "productCategory": "Mobile Phone",
+        "productTech": "Full HD+ 6.7\"",
+        "productChoices": [
+            "12GB",
+            "-",
+            "256GB",
+            "8GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "11.190.000₫",
+        "oldPrice": "11.990.000₫",
+        "gift": null,
+        "soldQuantity": "• Đã bán 9,9k",
+        "star": "4.9"
+    },
+    "Item_5": {
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336702/vivo-v50-lite-tim-thumbai-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": "Mẫu mới",
+        "productInstallment": null,
+        "productName": "vivo V50 Lite 8GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
+        "productTech": "Full HD+ 6.77 \"",
+        "productChoices": [
+            "12GB",
+            "-",
+            "256GB",
+            "8GB",
+            "-",
+            "128GB",
+            "8GB",
+            "-",
+            "256GB"
+        ],
+        "productPrice": "8.990.000₫",
+        "oldPrice": null,
+        "gift": "Quà 350.000₫",
+        "soldQuantity": "• Đã bán 1,1k",
+        "star": "5"
+    },
     "Item_6": {
         "productImage": "https://cdn.tgdd.vn/Products/Images/42/336623/realme-14-5g-sliver-thumb-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
@@ -363,76 +433,6 @@
         "oldPrice": "12.690.000₫",
         "gift": "Quà 2.490.000₫",
         "soldQuantity": "• Đã bán 256",
-        "star": "5"
-    },
-    "Item_3": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/329143/iphone-16-pro-titan-trang.png",
-        "exclusiveTag": null,
-        "productNew": null,
-        "productInstallment": null,
-        "productName": "iPhone 16 Pro 128GB",
-        "productCategory": "Mobile Phone",
-        "productTech": "Super Retina XDR 6.3\"",
-        "productChoices": [
-            "128GB",
-            "256GB",
-            "512GB",
-            "1TB"
-        ],
-        "productPrice": "25.090.000₫",
-        "oldPrice": "28.990.000₫",
-        "gift": "Quà 500.000₫",
-        "soldQuantity": "• Đã bán 18,3k",
-        "star": "4.9"
-    },
-    "Item_4": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/334932/samsung-galaxy-a56-5g-gray-thumb-1-600x600.jpg",
-        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": null,
-        "productInstallment": null,
-        "productName": "Samsung Galaxy A56 5G 12GB/256GB",
-        "productCategory": "Mobile Phone",
-        "productTech": "Full HD+ 6.7\"",
-        "productChoices": [
-            "12GB",
-            "-",
-            "256GB",
-            "8GB",
-            "-",
-            "128GB",
-            "8GB",
-            "-",
-            "256GB"
-        ],
-        "productPrice": "11.190.000₫",
-        "oldPrice": "11.990.000₫",
-        "gift": null,
-        "soldQuantity": "• Đã bán 9,9k",
-        "star": "4.9"
-    },
-    "Item_5": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/336702/vivo-v50-lite-tim-thumbai-600x600.jpg",
-        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": "Mẫu mới",
-        "productInstallment": null,
-        "productName": "vivo V50 Lite 8GB/256GB Mẫu mới",
-        "productCategory": "Mobile Phone",
-        "productTech": "Full HD+ 6.77 \"",
-        "productChoices": [
-            "12GB",
-            "-",
-            "256GB",
-            "8GB",
-            "-",
-            "128GB",
-            "8GB",
-            "-",
-            "256GB"
-        ],
-        "productPrice": "8.990.000₫",
-        "oldPrice": null,
-        "gift": "Quà 350.000₫",
-        "soldQuantity": "• Đã bán 1,1k",
         "star": "5"
     }
 }

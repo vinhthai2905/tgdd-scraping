@@ -5,3 +5,4 @@ pydantic
 fastapi
 uvicorn
 psycopg2
+asyncpg

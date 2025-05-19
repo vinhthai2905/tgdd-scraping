@@ -167,7 +167,7 @@ async def phone_crawling():
         
         try:
             async with httpx.AsyncClient(timeout=10) as client:
-                await client.get('http://localhost:8001/sending-data/phone')
+                await client.get('http://0.0.0.0:8001/sending-data/phone')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \n {traceback.format_exc()}')
             return {
@@ -290,7 +290,7 @@ async def laptop_crawling():
         
         try:
             async with httpx.AsyncClient(timeout=10.0) as client:
-                await client.get('http://localhost:8001/sending-data/laptop')
+                await client.get('http://0.0.0.0:8001/sending-data/laptop')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
             return {

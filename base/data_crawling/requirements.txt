@@ -4,3 +4,6 @@ schedule
 fastapi
 uvicorn
 lxml
+asyncio
+aioschedule
+httpx

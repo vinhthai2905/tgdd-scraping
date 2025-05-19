@@ -2,16 +2,25 @@ import requests
 import asyncio
 from fastapi import FastAPI
 from pprint import pprint
+from contextlib import asynccontextmanager
 from threading import Thread
 from app.crawler import phone_crawling, laptop_crawling
-from app.scheduler import start_scheduler
-
-app = FastAPI()
+from app.scheduler import start_aioscheduler
 
 
-@app.on_event('startup')
-async def start_all_schedulers():
-    asyncio.create_task(start_scheduler())
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    import asyncio
+    await asyncio.sleep(2)
+
+    asyncio.create_task(start_aioscheduler())
+    yield
+    
+app = FastAPI(lifespan=lifespan)
+
+@app.on_event("startup")
+async def startup_event():
+    asyncio.create_task(start_aioscheduler())
 #     # # phone_thread = Thread(target=schedule_phone_crawling, daemon=True)
 #     # laptop_thread = Thread(target=schedule_laptop_crawling, daemon=True)
 #     # # phone_thread.start()
