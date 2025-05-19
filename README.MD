@@ -10,8 +10,6 @@ The websites in which product datas are being scraped:
 
 ## 🛠️ How It's Made:
 
-## #Languages & Tools**
-
 ### Programming & Markup Languages
 
 🐍 [Python](https://www.python.org/)
@@ -47,7 +45,7 @@ The websites in which product datas are being scraped:
 
 📝 [Logging](https://docs.python.org/3/library/logging.html) - Used for writing logs for examining the results.
 
-## Tasks List:
+## 📘 Tasks List:
 - ✅ Data Crawling API Serivce
 - ✅ Data Ingestion API Service
 - ✅ Database API Service
@@ -68,9 +66,10 @@ The websites in which product datas are being scraped:
 
 3. docker-compose -f ./docker-compose.yml -p tgdd up --build
 
-## 🔍 Examining logs
+### 🔍 Examining logs
 
-4. ### Open three terminal and type in each
+> [!TIP] 
+> Open three terminal and type in each
  - docker attach data_crawling
  - docker attach data_ingestion
  - docker attach database_api
@@ -79,7 +78,19 @@ The websites in which product datas are being scraped:
 
 5. docker-compose -f./docker-compose.yml -p tgdd down
 
-## Interactive API Docs
+## 💡 Interactive API Docs
+
+### Data Crawling API Service Container
+
+![Screenshot of UI](assets/8000.png)
+
+### Data Ingestion API Service 
+
+![Screenshot of UI](assets/8001.png)
+
+### Database API Service Container
+
+![Screenshot of UI](assets/8002.png)
 
 ## 📎 Navigators
 
