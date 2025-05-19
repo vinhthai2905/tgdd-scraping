@@ -13686,3 +13686,251 @@ Traceback (most recent call last):
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
 urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=51410): Max retries exceeded with url: /session/b438c8442dd3d6d9eb59ab0d5a156185/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6AFAC0220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
 
+2025-05-19 16:25:32 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:25:33 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:25:33 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:25:33 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:25:34 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:25:34 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:25:34 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:25:34 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:25:39 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:25:40 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:25:40 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:25:40 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:25:41 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:25:41 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:25:41 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:25:41 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:25:46 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:25:46 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:25:46 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:25:47 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:25:48 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:25:48 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:25:48 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:25:48 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:25:53 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:25:53 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:25:53 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:25:53 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:25:54 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:25:54 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:25:54 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:25:54 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:00 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:00 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:00 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:00 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:01 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:01 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:01 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:01 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:06 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:07 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:07 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:07 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:08 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:08 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:08 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:08 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:13 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:13 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:13 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:13 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:14 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:14 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:14 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:14 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:20 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:20 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:21 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:21 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:21 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:21 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:26 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:27 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:27 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:27 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:28 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:28 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:28 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:28 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:33 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:33 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:33 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:33 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:34 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:34 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:34 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:34 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:40 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:40 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:40 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:40 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:41 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:41 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:41 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:41 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:46 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:47 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:47 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:47 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:48 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:48 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:48 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:48 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:51 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:52 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:52 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:53 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:53 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:53 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:53 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:26:55 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:55 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:26:55 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:26:55 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:26:58 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:26:58 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:26:58 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:26:58 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:26:58 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:00 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:00 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:00 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:00 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:01 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:01 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:01 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:01 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:07 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:07 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:07 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:07 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:08 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:08 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:08 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:08 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:13 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:13 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:13 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:13 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:15 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:15 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:15 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:15 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:20 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:20 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:21 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:21 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:21 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:21 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:27 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:27 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:27 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:27 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:28 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:28 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:28 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:28 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:33 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:33 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:33 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:34 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:35 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:35 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:35 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:35 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:40 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:40 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:40 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:40 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:42 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:42 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:42 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:42 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:47 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:47 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:47 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:47 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:49 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:49 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:27:49 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:49 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:54 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:27:54 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:27:54 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:27:54 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:27:55 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:27:55 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:27:55 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:27:55 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:01 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:01 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:01 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:01 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:02 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:02 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:02 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:02 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:07 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:08 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:08 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:08 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:09 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:09 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:09 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:09 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:14 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:14 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:14 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:14 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:15 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:15 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:15 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:15 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:21 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:21 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:21 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:21 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:22 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:22 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:22 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:22 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:27 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:28 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:28 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:28 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:29 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:29 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:29 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:29 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:34 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:34 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:34 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:34 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:36 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:36 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:36 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:36 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:41 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:41 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:41 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:41 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:42 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:42 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:42 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:42 - INFO - Requesting sending datas sucessfully.
+2025-05-19 16:28:48 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 16:28:48 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 16:28:48 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 16:28:48 - INFO - Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. 20 Total
+2025-05-19 16:28:49 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/laptop "HTTP/1.1 200 OK"
+2025-05-19 16:28:49 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 16:28:49 - INFO - HTTP Request: GET http://data_ingestion:8001/sending-data/phone "HTTP/1.1 200 OK"
+2025-05-19 16:28:49 - INFO - Requesting sending datas sucessfully.

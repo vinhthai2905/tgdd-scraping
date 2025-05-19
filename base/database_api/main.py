@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, Request, Path, HTTPException
+from fastapi import FastAPI, Depends, Request, Path, HTTPException, Query
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
@@ -25,7 +25,24 @@ logging.basicConfig(
 
 app = FastAPI()
 
-    
+@app.get('/search')
+async def search_products(
+    q: str = Query(..., description="Search keyword for product name"),
+    dbCon: Session = Depends(get_async_session)
+):    
+    try:
+        result = await dbCon.execute(
+            select(model.Product).where(model.Product.product_name.ilike(f"%{q}%"))
+        )
+        products = result.scalars().all()
+        return jsonable_encoder(products)
+    except Exception as e:
+        logging.error(f"Error searching for products with keyword '{q}': {repr(e)}\n{traceback.format_exc()}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Unable to search for products with keyword '{q}'."}
+        )
+
 @app.get('/site/{category}/products')
 async def get_products_by_category(
     category: str = Path(..., description="Product category (e.g. 'Mobile Phone', 'Laptop')"),

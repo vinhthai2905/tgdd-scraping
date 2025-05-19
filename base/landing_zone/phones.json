@@ -394,20 +394,6 @@
         "star": "4.9"
     },
     "Item_20": {
-        "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/321192/dell-inspiron-15-3520-i5-25p231-thumb-638754902669914908-600x600.jpg",
-        "exclusiveTag": null,
-        "productNew": null,
-        "productInstallment": null,
-        "productName": "Dell Inspiron 15 3520 i5 1235U",
-        "productCategory": "Laptop",
-        "productTech": "RAM 16 GB SSD 512 GB",
-        "productPrice": "16.490.000₫",
-        "oldPrice": "16.990.000₫",
-        "gift": "Quà 400.000₫",
-        "soldQuantity": "• Đã bán 10,1k",
-        "star": "4.9"
-    },
-    "Item_21": {
         "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/326049/hp-245-g10-r5-a20tdpt-170225-110347-587-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
         "productNew": null,
@@ -421,7 +407,7 @@
         "soldQuantity": "• Đã bán 4,7k",
         "star": "4.9"
     },
-    "Item_22": {
+    "Item_21": {
         "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/334792/asus-vivobook-15-x1504va-i3-nj1634w-thumb-638760891054481940-600x600.jpg",
         "exclusiveTag": null,
         "productNew": null,
