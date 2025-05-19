@@ -17,7 +17,7 @@ from datetime import datetime
 
 
 logging.basicConfig(
-    filename=r'C:\code\cdnnlt\TGDD_Scraping\base\data_crawling\logs\crawler.log',  
+    filename=r'./logs/crawler.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  #
     datefmt='%Y-%m-%d %H:%M:%S'  
@@ -153,9 +153,8 @@ async def phone_crawling():
             
             return 'An error occurred while extracting phone datas after requesting sucessfully from the source. Check logs for more details.'           
         else:
-            with open(r'C:\code\cdnnlt\TGDD_Scraping\base\landing_zone\phones.json', 'w', encoding='utf-8') as jsonFile:
+            with open('../landing_zone/phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
-            print(f'[{datetime.now()}]: Extracting phone datas from the source successfully.')
             
     except Exception as e:
         print(f'[{datetime.now()}]: Error occured while requesting phone datas from the source: Check logs for more details.')
@@ -167,7 +166,7 @@ async def phone_crawling():
         logging.info(f'Scraped https://www.thegioididong.com/dtdd#c=42&o=13&pi=0 successfully. {itemCount} Total')
         
         try:
-            async with httpx.AsyncClient(timeout=50) as client:
+            async with httpx.AsyncClient(timeout=10) as client:
                 await client.get('http://localhost:8001/sending-data/phone')
         except Exception as e:
             logging.error(f'An error occurred while requesting sending data. \n {repr(e)} \n {traceback.format_exc()}')

@@ -1,5 +1,6 @@
 from pprint import pprint
 from fastapi import FastAPI, Depends, Request
+from fastapi.encoders import jsonable_encoder
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from sqlalchemy.future import select
@@ -21,15 +22,16 @@ logging.basicConfig(
 
 app = FastAPI()
 
-@app.get('/dtdd')
-def get_product(dbCon: Session = Depends(db_connection)):
+@app.get('/products')
+async def get_product(dbCon: Session = Depends(get_async_session)):
     try:
-        brand = dbCon.query(model.Product).all()
-        return brand
+        results = await dbCon.execute(select (model.Product))
+        products = results.scalars().all()
+        return jsonable_encoder(products)
+
     except Exception as e:
         print(e)
         
-
 @app.post('/insert-product/dtdd')
 async def insert_phones(productDict: dict, dbCon: Session = Depends(get_async_session)):
     try:
@@ -98,7 +100,6 @@ async def insert_laptops(productDict: dict, dbCon: Session = Depends(get_async_s
         
         if existingProduct:
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
-            logging.warning(f'Skipping insertion: {existingProduct.product_name} duplicated')
             print(message)
             return {
                 'status': 'Duplicated product.'
