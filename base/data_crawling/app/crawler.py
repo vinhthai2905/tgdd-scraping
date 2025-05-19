@@ -127,6 +127,7 @@ def phone_crawling():
                     'productNew': productNew,
                     'productInstallment': productInstallment,
                     'productName': productName,
+                    'productCategory': 'Mobile Phone',
                     'productTech': productTech,
                     'productChoices': productChoices.split(),
                     'productPrice': productPrice,
@@ -145,7 +146,8 @@ def phone_crawling():
         else:
             with open('../landing_zone/phones.json', 'w', encoding='utf-8') as jsonFile:
                 json.dump(datas, jsonFile, indent=4, ensure_ascii=False)
-
+            print(f'[{datetime.now()}]: Extracting phone datas from the source successfully.')
+            
     except Exception as e:
         print(f'[{datetime.now()}]: Error occured while requesting phone datas from the source: Check logs for more details.')
         logging.error(f'{repr(e)} \n {traceback.format_exc()}')
@@ -242,6 +244,7 @@ def laptop_crawling():
                     'productNew': productNew,
                     'productInstallment': productInstallment,
                     'productName': productName,
+                    'productCategory': 'Laptop',
                     'productTech': productTech,
                     'productPrice': productPrice,
                     'oldPrice': oldPrice,
@@ -272,7 +275,7 @@ def laptop_crawling():
         try:
             requests.get('http://localhost:8001/sending-data/laptop')
         except Exception as e:
-            logging.error(f'An error occurred while requesting sending laptop datas. \n {repr(e)} \n {traceback.print_exc()}')
+            logging.error(f'An error occurred while requesting sending laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
             return {
                 'Scraping': f'{datetime.now()}: Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. {itemCount} Total',
                 'Requesting': f'{datetime.now()}: Requesting laptop datas being sent failed. Check logs for more details.'

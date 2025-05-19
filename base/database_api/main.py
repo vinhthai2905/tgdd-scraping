@@ -45,6 +45,7 @@ def insert_phones(productDict: dict, dbCon: Session = Depends(db_connection)):
         else:
             product = model.Product(
             product_name=productInfos.get('productName'),
+            product_category=productInfos.get('productCategory'),
             product_image = productInfos.get('productImage'),
             exclusive_tag = productInfos.get('exclusiveTag'),
             product_new = productInfos.get('productNew'),
@@ -83,14 +84,15 @@ def insert_laptops(productDict: dict, dbCon: Session = Depends(db_connection)):
     try:
         productInfos: dict = productDict.get('product')
         
-        if not productInfos or not isinstance(productInfos, dict):
-            logging.error("Invalid or missing 'product' key in received data.")
-            return {'status': 'Invalid product data.'}
+        # if not productInfos or not isinstance(productInfos, dict):
+        #     logging.error("Invalid or missing 'product' key in received data.")
+        #     return {'status': 'Invalid product data.'}
         
         existingProduct = dbCon.query(model.Product).filter_by(product_name=productInfos.get('productName')).first()
         
         if existingProduct:
             message = f"[{datetime.now()}] Skipping insertion: {existingProduct.product_name} duplicated."
+            logging.warning(f'Skipping insertion: {existingProduct.product_name} duplicated')
             print(message)
             return {
                 'status': 'Duplicated product.'
@@ -99,6 +101,7 @@ def insert_laptops(productDict: dict, dbCon: Session = Depends(db_connection)):
         else:
             product = model.Product(
             product_name=productInfos.get('productName'),
+            product_category = productInfos.get('productCategory'),
             product_image = productInfos.get('productImage'),
             exclusive_tag = productInfos.get('exclusiveTag'),
             product_new = productInfos.get('productNew'),

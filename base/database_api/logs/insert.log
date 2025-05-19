@@ -3981,3 +3981,55 @@ could not connect to server: Connection refused (0x0000274D/10061)
 2025-05-18 23:07:33 - INFO - Laptop datas being inserted into database successfully.
 2025-05-18 23:07:35 - INFO - Laptop datas being inserted into database successfully.
 2025-05-18 23:07:37 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:05 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:07 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:09 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:11 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:13 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:15 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:17 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:19 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:21 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:23 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:25 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:27 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:30 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:32 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:34 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:36 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:38 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:40 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:42 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 08:41:44 - INFO - Laptop datas being inserted into database successfully.
+2025-05-19 09:01:05 - WARNING - Skipping insertion:
+2025-05-19 09:01:07 - WARNING - Skipping insertion:
+2025-05-19 09:01:09 - WARNING - Skipping insertion:
+2025-05-19 09:01:11 - ERROR - An error occurred while inserting laptop datas. 
+ NameError("name 'ex' is not defined") 
+ Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\database_api\.\main.py", line 95, in insert_laptops
+    logging.warning(f'Skipping insertion: {ex}')
+NameError: name 'ex' is not defined
+
+2025-05-19 09:01:18 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W)
+2025-05-19 09:01:20 - WARNING - Skipping insertion: HP 15 fc0085AU R5 7430U (A6VV8PA) duplicated
+2025-05-19 09:01:22 - WARNING - Skipping insertion: MacBook Air 13 inch M4 16GB/256GB duplicated
+2025-05-19 09:01:25 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:01:27 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U (N5I5057W1) duplicated
+2025-05-19 09:01:29 - WARNING - Skipping insertion: Acer Aspire Go AG15 31P 30M4 i3 N305 (NX.KRPSV.004) duplicated
+2025-05-19 09:01:31 - WARNING - Skipping insertion: HP 15 fd0234TU i5 1334U (9Q969PA) duplicated
+2025-05-19 09:01:33 - WARNING - Skipping insertion: Asus Vivobook 15 OLED A1505ZA i5 12500H (MA415W) duplicated
+2025-05-19 09:01:35 - WARNING - Skipping insertion: Acer Aspire 7 A715 76 53PJ i5 12450H (NH.QGESV.007) duplicated
+2025-05-19 09:01:37 - WARNING - Skipping insertion: Lenovo Gaming LOQ Essential 15IAX9E i5 12450HX (83LK000BVN) duplicated
+2025-05-19 09:01:39 - WARNING - Skipping insertion: MSI Gaming Thin 15 B12UCX i5 12450H (2046VN) duplicated
+2025-05-19 09:01:41 - WARNING - Skipping insertion: HP 15 fd0303TU i3 1315U (A2NL4PA) duplicated
+2025-05-19 09:01:43 - WARNING - Skipping insertion: Acer Nitro V 15 ANV15 41 R2UP R5 6600H (NH.QPGSV.004) duplicated
+2025-05-19 09:01:45 - WARNING - Skipping insertion: Asus Vivobook 16 X1605VA i5 1335U (MB360W) duplicated
+2025-05-19 09:01:47 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i7 1255U (N5I7125W1) duplicated
+2025-05-19 09:01:49 - WARNING - Skipping insertion: Lenovo IdeaPad Slim 3 15IRH10 i5 13420H (83K1000HVN) duplicated
+2025-05-19 09:01:51 - WARNING - Skipping insertion: MacBook Air 13 inch M1 8GB/256GB duplicated
+2025-05-19 09:01:53 - WARNING - Skipping insertion: MSI Modern 15 F13MG i5 1335U (082VN) duplicated
+2025-05-19 09:01:55 - WARNING - Skipping insertion: Dell Inspiron 15 3520 i5 1235U duplicated
+2025-05-19 09:01:57 - WARNING - Skipping insertion: HP 245 G10 R5 7530U (A20TDPT) duplicated
+2025-05-19 09:01:59 - WARNING - Skipping insertion: Asus Vivobook 15 X1504VA i3 1315U (NJ1634W) duplicated
+2025-05-19 09:02:09 - WARNING - Skipping insertion: Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) duplicated

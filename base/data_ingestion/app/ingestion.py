@@ -85,8 +85,9 @@ def sending_laptop_datas():
             try:
                 requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
             except Exception as e:
-                error = f'[{datetime.now()}]: An error occured while requesting inserting laptop datas. Check logs for more details.'
+                error = f'[{datetime.now()}] - An error occured while requesting inserting laptop datas. Check logs for more details.'
                 logging.error(f'An error occurred while requesting inserting laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
+                pprint(error)
                 
                 return error
             

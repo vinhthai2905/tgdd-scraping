@@ -5001,3 +5001,179 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=800
 2025-05-18 23:07:27 - WARNING - Missing <a> tag in product 6, skipping.
 2025-05-18 23:07:27 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
 2025-05-18 23:07:39 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:38:03 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:38:03 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:38:03 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:38:09 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:38:09 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:38:09 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:38:09 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:40:31 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:40:31 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:40:31 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:41:01 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:41:01 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:41:01 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:41:44 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:41:44 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:41:44 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:41:44 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:48:59 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:48:59 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:48:59 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:50:28 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:50:28 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:50:28 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:51:11 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:51:12 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:51:12 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:51:12 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:51:55 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:52:00 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:52:00 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:52:00 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:52:43 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:52:43 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:52:43 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:52:43 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:52:53 - ERROR - An error occurred while requesting sending laptop datas. 
+ ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))) 
+ None
+2025-05-19 08:56:15 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:56:15 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:56:15 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:56:58 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:56:58 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:56:58 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:56:58 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:57:41 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:57:46 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:57:46 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:57:46 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:58:29 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:58:30 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:58:30 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:58:30 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 08:59:13 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 08:59:19 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 08:59:19 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 08:59:19 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:00:01 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:00:02 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:00:02 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:00:02 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:00:45 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:00:50 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:00:50 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:00:50 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:01:13 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:01:14 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:01:14 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:01:14 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:01:14 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:01:59 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:04 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:04 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:04 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:02:05 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:02:09 - ERROR - An error occurred while requesting sending laptop datas. 
+ ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\.\app\crawler.py", line 276, in laptop_crawling
+    requests.get('http://localhost:8001/sending-data/laptop')
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-19 09:02:09 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:09 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:09 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:02:15 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:21 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:21 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:21 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:02:27 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:27 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:27 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:27 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:02:27 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:02:33 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:38 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:38 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:38 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:02:44 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:45 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:45 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:45 - WARNING - Missing <a> tag in product 5, skipping.
+2025-05-19 09:02:45 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 23 Total
+2025-05-19 09:02:51 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:02:56 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:02:56 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:02:56 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:03:02 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:03:02 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:03:02 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:03:02 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:03:09 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:03:14 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:03:14 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:03:14 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:03:20 - INFO - Requesting sending laptop datas sucessfully.
+2025-05-19 09:03:20 - WARNING - Missing <a> tag in product 3, skipping.
+2025-05-19 09:03:20 - WARNING - Missing <a> tag in product 4, skipping.
+2025-05-19 09:03:20 - INFO - Scraped https://www.thegioididong.com/laptop#c=44&o=13&pi=0 successfully. 22 Total
+2025-05-19 09:03:26 - INFO - Requesting sending laptop datas sucessfully.

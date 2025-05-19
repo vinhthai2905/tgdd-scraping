@@ -439,3 +439,737 @@ Traceback (most recent call last):
     raise ConnectionError(err, request=request)
 requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
 
+2025-05-19 08:38:09 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226D9A99EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000226D9A99EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226D9A99EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000226D9A99EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 08:41:44 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:42:25 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E041C72B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000028E041C72B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E041C72B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028E041C72B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 08:51:11 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:51:55 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:52:43 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:56:58 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:57:41 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:58:29 - INFO - Laptop datas being sent successfully.
+2025-05-19 08:59:13 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:00:01 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:00:45 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:01:13 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1348, in getresponse
+    response.begin()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "D:\Anaconda\envs\KDL\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+2025-05-19 09:01:59 - INFO - Laptop datas being sent successfully.
+2025-05-19 09:02:15 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5DE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDB5DE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5DE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5DE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:02:27 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5D2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDB5D2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5D2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDB5D2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:02:33 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC149A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDC149A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC149A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC149A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:02:44 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDC29400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:02:51 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDC29E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:03:02 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDC29A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC29A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:03:09 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC14F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000026EBDC14F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC14F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EBDC14F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:03:20 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FDE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000237E38FDE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FDE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FDE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+2025-05-19 09:03:26 - ERROR - An error occurred while requesting inserting laptop datas. 
+ ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FD2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))")) 
+ Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 1011, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\envs\KDL\lib\http\client.py", line 951, in send
+    self.connect()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000237E38FD2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\KDL\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FD2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\.\app\ingestion.py", line 86, in sending_laptop_datas
+    requests.post('http://localhost:8002/insert-product/laptop', json=productDict[i])
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\KDL\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /insert-product/laptop (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237E38FD2E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
