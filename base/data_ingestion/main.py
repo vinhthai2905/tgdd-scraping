@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.ingestion import sending_phone_datas, sending_laptop_datas
 
-app = FastAPI()
+app = FastAPI(root_path="/ingestion_api")
 
 
 @app.get('/sending-data/phone')

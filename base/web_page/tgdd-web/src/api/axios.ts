@@ -1,13 +1,12 @@
-import axios, { type AxiosInstance, type AxiosRequestConfig, type AxiosResponse } from 'axios';
+import axios from 'axios'
 
-const BASE_URL = 'https://localhost:8002';
-
-const axiosInstance: AxiosInstance = axios.create({
-  baseURL: BASE_URL,
+const axiosInstance = axios.create({
+  baseURL: '', // relative to current origin
   headers: {
     'Content-Type': 'application/json',
   },
-});
+})
+
 
 export const get = async <T>(
   url: string,

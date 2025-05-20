@@ -16,7 +16,7 @@ async def lifespan(app: FastAPI):
     asyncio.create_task(start_aioscheduler())
     yield
     
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan, root_path="/crawling_api")
 
 @app.on_event("startup")
 async def startup_event():

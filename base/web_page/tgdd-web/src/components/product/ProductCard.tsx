@@ -33,7 +33,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
           {product.product_tech}
         </p>
 
-        <ProductChoices choices={product.productChoices} />
+        <ProductChoices choices={product.productChoices ?? []}  /> 
 
         <div className="transition-transform duration-300 group-hover:scale-105 transform origin-left">
           <Price current={product.product_price} old={product.old_price} />

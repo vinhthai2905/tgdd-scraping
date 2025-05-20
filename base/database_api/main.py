@@ -23,7 +23,8 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S',
 )
 
-app = FastAPI()
+app = FastAPI(root_path="/database_api")
+
 
 @app.get('/search')
 async def search_products(
