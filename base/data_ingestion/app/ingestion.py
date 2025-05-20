@@ -1,26 +1,27 @@
 from pprint import pprint
 from datetime import datetime
 import logging
+import traceback
 import requests
 import json
-import database_api.app.db as db
-import database_api.app.models as models
+import httpx
+import asyncio
  
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_ingestion\logs\send_json.log',  
+    filename='./logs/send_json.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  
     datefmt='%Y-%m-%d %H:%M:%S',
 ) 
                 
-def sending_product_datas():
+async def sending_phone_datas():
     try:
-        with open(r'D:\Projects\Python\224-CDCSDL-FinalProject\base\landing_zone\phones.json', 'r', encoding='utf-8') as jsonFile:
+        with open('../landing_zone/phones.json', 'r', encoding='utf-8') as jsonFile:
             datas: dict = json.load(jsonFile)
     except Exception as e:
-        error = f'[{datetime.now()}]: Error: Check logs for more details.'
-        logging.error('An error occurred: {str(e)}')
-        logging.error('Traceback:', exc_info=True)
+        error = f'[{datetime.now()}]: Error while processing phone json file. Check logs for more errors.'
+        logging.error(f'An error occurred: \n {repr(e)} \n {traceback.format_exc()}')
+        
         return error
     else:
         for i, productInfos in datas.items():
@@ -48,19 +49,56 @@ def sending_product_datas():
             #     'choices': choiceList
             # }
             try:
-                requests.post('http://127.0.0.1:8001/insert-product/dtdd', json=productDict[i])
+                async with httpx.AsyncClient(timeout=20.0) as client:
+                    await client.post('http://database_api:8002/insert-product/dtdd', json=productDict[i])
             except Exception as e:
-                error = f'[{datetime.now()}]: Error: Check logs for more details.'
+                error = f'[{datetime.now()}]: An error occurred while requesting inserting phone datas. Check logs for more details.'
                 pprint(error)
-                logging.error(f'An error occurred while requesting inserting datas. {repr(e)}')
+                logging.error(f'An error occurred while requesting inserting  phone datas. {repr(e)} \n {traceback.format_exc()} ')
+                
                 return error
             
-        logging.info('Data being sent successfully.')
-        result = f'[{datetime.now()}] - Data being sent sucessfully'
+        result = f'[{datetime.now()}] - Phone datas being sent sucessfully.'
         pprint(result)
+        
         return result
     
+async def sending_laptop_datas():
+    try:
+        with open('../landing_zone/laptops.json', 'r', encoding='utf-8') as jsonFile:
+            datas: dict = json.load(jsonFile)
+    except Exception as e:
+        error = f'[{datetime.now()}]: Error while processing laptop json file. Check logs for more errors.'
+        logging.error(f'An error occurred: \n {repr(e)} \n {traceback.format_exc()}')
+        return error
+    else:
+        for i, productInfos in datas.items():
+            productDict: dict = dict()
+            productInfos: dict
+            
+            productDict[i] = {
+                'product': productInfos,
+            }
+            # test = dict()
+            # test[i] = {
+            #     'choices': choiceList
+            # }
+            # pprint(productDict[i])
+            try:
+                async with httpx.AsyncClient() as client:
+                    await client.post('http://database_api:8002/insert-product/laptop', json=productDict[i])
+            except Exception as e:
+                error = f'[{datetime.now()}] - An error occured while requesting inserting laptop datas. Check logs for more details.'
+                logging.error(f'An error occurred while requesting inserting laptop datas. \n {repr(e)} \n {traceback.format_exc()}')
+                pprint(error)
+                
+                return error
+            
+        result = f'[{datetime.now()}] - Laptop datas being sent sucessfully.'
+        pprint(result)
+        
+        return result
     
 if __name__ == '__main__':
-    sending_product_datas()
-                                                                                                                                                                                                                                                                                                                                                                                                               
+    # sending_phone_datas()
+    sending_laptop_datas()                                                                                                                                                                                                                                                                                                                                                                                                               

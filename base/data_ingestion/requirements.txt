@@ -1,0 +1,6 @@
+requests
+fastapi
+uvicorn
+asyncio
+aioschedule
+httpx

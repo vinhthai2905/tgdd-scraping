@@ -1,16 +1,17 @@
 {
     "Item_0": {
-        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335925/samsung-galaxy-s25-edge-blue-thumb-600x600.jpg",
+        "productImage": "https://cdn.tgdd.vn/Products/Images/42/335955/samsung-galaxy-s25-edge-sliver-thumb-600x600.jpg",
         "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
-        "productNew": "Mẫu mới",
+        "productNew": null,
         "productInstallment": null,
-        "productName": "Samsung Galaxy S25 Edge 5G 12GB/256GB Mẫu mới",
+        "productName": "Samsung Galaxy S25 Edge 5G 12GB/512GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Quad HD+ (2K+) 6.7\"",
         "productChoices": [
-            "256GB",
-            "512GB"
+            "512GB",
+            "256GB"
         ],
-        "productPrice": "29.990.000₫",
+        "productPrice": "33.490.000₫",
         "oldPrice": null,
         "gift": "Trả chậm 0% lãi suất + Ưu đãi đến 10 Triệu đồng",
         "soldQuantity": null,
@@ -22,6 +23,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Xiaomi Redmi Note 14 Pro+ 5G 8GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "1.5K 6.67\"",
         "productChoices": [
             "8GB",
@@ -43,6 +45,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "iPhone 16 Pro Max 256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Super Retina XDR 6.9\"",
         "productChoices": [
             "256GB",
@@ -52,7 +55,7 @@
         "productPrice": "30.590.000₫",
         "oldPrice": "34.990.000₫",
         "gift": "Quà 500.000₫",
-        "soldQuantity": "• Đã bán 163,1k",
+        "soldQuantity": "• Đã bán 163,8k",
         "star": "4.9"
     },
     "Item_3": {
@@ -61,6 +64,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "iPhone 16 Pro 128GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Super Retina XDR 6.3\"",
         "productChoices": [
             "128GB",
@@ -71,7 +75,7 @@
         "productPrice": "25.090.000₫",
         "oldPrice": "28.990.000₫",
         "gift": "Quà 500.000₫",
-        "soldQuantity": "• Đã bán 18,2k",
+        "soldQuantity": "• Đã bán 18,3k",
         "star": "4.9"
     },
     "Item_4": {
@@ -80,6 +84,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Samsung Galaxy A56 5G 12GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.7\"",
         "productChoices": [
             "12GB",
@@ -92,7 +97,7 @@
             "-",
             "256GB"
         ],
-        "productPrice": "11.490.000₫",
+        "productPrice": "11.190.000₫",
         "oldPrice": "11.990.000₫",
         "gift": null,
         "soldQuantity": "• Đã bán 9,9k",
@@ -104,6 +109,7 @@
         "productNew": "Mẫu mới",
         "productInstallment": null,
         "productName": "vivo V50 Lite 8GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.77 \"",
         "productChoices": [
             "12GB",
@@ -128,6 +134,7 @@
         "productNew": "Mẫu mới",
         "productInstallment": null,
         "productName": "realme 14 5G 12GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.67\"",
         "productChoices": [
             "12GB",
@@ -145,6 +152,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Xiaomi Redmi Note 14 Pro 8GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.67\"",
         "productChoices": [
             "8GB",
@@ -162,6 +170,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "OPPO Find N5 5G 16GB/512GB",
+        "productCategory": "Mobile Phone",
         "productTech": "QXGA+ Chính 8.12\" & Phụ 6.62\"",
         "productChoices": [
             "8GB",
@@ -179,12 +188,13 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "OPPO Reno13 5G 12GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "1.5K 6.59\"",
         "productChoices": [
             "256GB",
             "512GB"
         ],
-        "productPrice": "14.790.000₫",
+        "productPrice": "15.490.000₫",
         "oldPrice": "15.990.000₫",
         "gift": null,
         "soldQuantity": "• Đã bán 11,1k",
@@ -196,6 +206,7 @@
         "productNew": "Mẫu mới",
         "productInstallment": null,
         "productName": "vivo V50 Lite 5G 8GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.77 \"",
         "productChoices": [
             "8GB",
@@ -213,6 +224,7 @@
         "productNew": "Mẫu mới",
         "productInstallment": null,
         "productName": "realme 14T 5G 8GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.67\"",
         "productChoices": [
             "8GB",
@@ -230,13 +242,14 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "HONOR X8c 8GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.7\"",
         "productChoices": [
             "256GB",
             "512GB"
         ],
-        "productPrice": "6.890.000₫",
-        "oldPrice": "6.990.000₫",
+        "productPrice": "6.990.000₫",
+        "oldPrice": null,
         "gift": "Quà 500.000₫",
         "soldQuantity": "• Đã bán 886",
         "star": "4.9"
@@ -247,6 +260,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Tecno Spark 30 8GB/128GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.78\"",
         "productChoices": [
             "256GB",
@@ -264,6 +278,7 @@
         "productNew": "Mẫu mới",
         "productInstallment": null,
         "productName": "Masstel S9 6GB/256GB Mẫu mới",
+        "productCategory": "Mobile Phone",
         "productTech": "HD+ 6.67\"",
         "productChoices": [
             "256GB",
@@ -273,7 +288,7 @@
         "oldPrice": null,
         "gift": null,
         "soldQuantity": "• Đã bán 196",
-        "star": "5"
+        "star": "4.9"
     },
     "Item_15": {
         "productImage": "https://cdn.tgdd.vn/Products/Images/42/329138/iphone-16-plus-xanh-thumb-600x600.jpg",
@@ -281,6 +296,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "iPhone 16 Plus 128GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Super Retina XDR 6.7\"",
         "productChoices": [
             "128GB",
@@ -299,6 +315,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "iPhone 16 128GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Super Retina XDR 6.1\"",
         "productChoices": [
             "128GB",
@@ -308,7 +325,7 @@
         "productPrice": "19.090.000₫",
         "oldPrice": "22.990.000₫",
         "gift": "Quà 500.000₫",
-        "soldQuantity": "• Đã bán 12,3k",
+        "soldQuantity": "• Đã bán 12,4k",
         "star": "4.9"
     },
     "Item_17": {
@@ -317,6 +334,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Samsung Galaxy A06 5G 6GB/128GB",
+        "productCategory": "Mobile Phone",
         "productTech": "HD+ 6.7\"",
         "productChoices": [
             "6GB",
@@ -334,6 +352,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Samsung Galaxy A36 5G 12GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "Full HD+ 6.7\"",
         "productChoices": [
             "12GB",
@@ -346,7 +365,7 @@
             "-",
             "256GB"
         ],
-        "productPrice": "9.790.000₫",
+        "productPrice": "9.490.000₫",
         "oldPrice": "10.290.000₫",
         "gift": null,
         "soldQuantity": "• Đã bán 1,9k",
@@ -358,6 +377,7 @@
         "productNew": null,
         "productInstallment": null,
         "productName": "Xiaomi Redmi Note 14 Pro 5G 8GB/256GB",
+        "productCategory": "Mobile Phone",
         "productTech": "1.5K 6.67\"",
         "productChoices": [
             "8GB",
@@ -372,5 +392,33 @@
         "gift": "Quà 1.390.000₫",
         "soldQuantity": "• Đã bán 22k",
         "star": "4.9"
+    },
+    "Item_20": {
+        "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/326049/hp-245-g10-r5-a20tdpt-170225-110347-587-600x600.jpg",
+        "exclusiveTag": "https://cdn.tgdd.vn/2023/10/campaign/label-tgdd-200x200.png?v=2024",
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "HP 245 G10 R5 7530U (A20TDPT)",
+        "productCategory": "Laptop",
+        "productTech": "RAM 8 GB SSD 512 GB",
+        "productPrice": "12.690.000₫",
+        "oldPrice": "14.590.000₫",
+        "gift": "Quà 2.490.000₫",
+        "soldQuantity": "• Đã bán 4,7k",
+        "star": "4.9"
+    },
+    "Item_21": {
+        "productImage": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/44/334792/asus-vivobook-15-x1504va-i3-nj1634w-thumb-638760891054481940-600x600.jpg",
+        "exclusiveTag": null,
+        "productNew": null,
+        "productInstallment": null,
+        "productName": "Asus Vivobook 15 X1504VA i3 1315U (NJ1634W)",
+        "productCategory": "Laptop",
+        "productTech": "RAM 8 GB SSD 512 GB",
+        "productPrice": "10.690.000₫",
+        "oldPrice": "12.690.000₫",
+        "gift": "Quà 2.490.000₫",
+        "soldQuantity": "• Đã bán 256",
+        "star": "5"
     }
 }

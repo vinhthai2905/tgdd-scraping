@@ -1,29 +1,31 @@
-from pprint import pprint
 import requests
-import schedule
+import asyncio
+import aioschedule
 import logging
 from app import crawler
-from schedule import every, repeat
+from pprint import pprint
 from datetime import time, timedelta, datetime
 
 
 logging.basicConfig(
-    filename=r'D:\Projects\Python\224-CDCSDL-FinalProject\base\data_crawling\logs\crawler.log',  
+    filename='./logs/crawler.log',  
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',  #
     datefmt='%Y-%m-%d %H:%M:%S'  
 )
 
-def schedule_phone_crawling():
-    @repeat(every(5).seconds)
-    def job():
-        print(f'[{datetime.now()}] Running scheduled job...')
-        try:
-            crawler.phone_crawling()
-        except Exception as e:
-            pprint(crawler.phone_crawling())
-        else:
-            pprint(crawler.phone_crawling())
+async def schedule_job(job_fn, interval_seconds: int, label: str):
     while True:
-        schedule.run_pending()
-    
+        try:
+            print(f'[{datetime.now()}] Running {label} job...', flush=True)
+            result = await job_fn()
+            pprint(result)            
+        except Exception as e:
+            logging.error(f"{label} job failed: {e}")
+        await asyncio.sleep(interval_seconds)
+
+async def start_aioscheduler():
+    await asyncio.gather(
+        schedule_job(crawler.phone_crawling, 5, 'Phone'),
+        schedule_job(crawler.laptop_crawling, 5, 'Laptop'),
+    )

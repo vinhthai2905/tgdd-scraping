@@ -1,0 +1,9 @@
+bs4
+requests
+schedule
+fastapi
+uvicorn
+lxml
+asyncio
+aioschedule
+httpx

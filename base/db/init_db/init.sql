@@ -27,6 +27,7 @@
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     product_name TEXT,
+    product_category TEXT,
     product_image TEXT,
     exclusive_tag TEXT,
     product_new TEXT,

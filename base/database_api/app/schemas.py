@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field
 from typing import List, Optional
-from decimal import Decimal
 
 
 class ProductChoice(BaseModel):
@@ -21,6 +20,7 @@ class Product(BaseModel):
     image: Optional[str] = None
     exclusive_tag: Optional[str] = None
     product_new: Optional[str] = None
+    product_category: Optional[str] = None
     product_installment: Optional[str] = None
     product_tech: Optional[str] = None
     product_price: Optional[str] = None
