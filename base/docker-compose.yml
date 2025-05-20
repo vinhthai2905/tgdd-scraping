@@ -32,6 +32,7 @@ services:
      - ./landing_zone/:/base/landing_zone/
     depends_on:
      - data_ingestion
+     - postgres_DB
 
 
   data_ingestion:

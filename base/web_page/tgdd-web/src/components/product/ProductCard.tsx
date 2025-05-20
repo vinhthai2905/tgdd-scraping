@@ -10,33 +10,33 @@ export const ProductCard = ({ product }: { product: Product }) => {
     <div className="group bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl relative w-full hover:bg-gray-50 transform hover:-translate-y-1 border border-transparent hover:border-gray-200">
       <div className="relative pt-[100%] overflow-hidden">
         <img
-          src={product.productImage}
-          alt={product.productName}
+          src={product.product_image}
+          alt={product.product_name}
           className="absolute top-0 left-0 w-full h-full object-contain p-4 transition-all duration-500 group-hover:scale-105 group-hover:brightness-105"
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-        {product.productNew && (
-          <ProductBadge type="new" text={product.productNew} />
+        {product.product_new && (
+          <ProductBadge type="new" text={product.product_new} />
         )}
-        {product.exclusiveTag && (
-          <ProductBadge type="exclusive" urlImg={product.exclusiveTag} />
+        {product.exclusive_tag && (
+          <ProductBadge type="exclusive" urlImg={product.exclusive_tag} />
         )}
       </div>
 
       <div className="p-4 transition-all duration-300 group-hover:bg-gradient-to-b group-hover:from-gray-50 group-hover:to-white">
         <h3 className="font-semibold text-gray-800 line-clamp-2 group-hover:text-blue-600 transition-colors duration-300">
-          {product.productName}
+          {product.product_name}
         </h3>
         <p className="text-gray-500 text-sm mt-1 transition-colors duration-300 group-hover:text-gray-700">
-          {product.productTech}
+          {product.product_tech}
         </p>
 
         <ProductChoices choices={product.productChoices} />
 
         <div className="transition-transform duration-300 group-hover:scale-105 transform origin-left">
-          <Price current={product.productPrice} old={product.oldPrice} />
+          <Price current={product.product_price} old={product.old_price} />
         </div>
 
         <div className="transition-all duration-300 group-hover:translate-x-1">
@@ -46,7 +46,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
         <div className="mt-3 flex justify-between items-center">
           <StarRating rating={product.star} />
           <span className="text-xs text-gray-500 transition-all duration-300 group-hover:font-medium">
-            {product.soldQuantity || "• Đã bán 0"}
+            {product.sold_quantity || "• Đã bán 0"}
           </span>
         </div>
 
