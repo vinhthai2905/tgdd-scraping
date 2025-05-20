@@ -23,6 +23,8 @@ The websites in which product data are being scraped:
 
 🐳 [Docker](https://www.docker.com/) - Used for isolating services and encapsulating necessary things for the software instead of doing it traditional ways.
 
+🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
+
 ### Core Packages:
 
 ⚡ [FastAPI](https://fastapi.tiangolo.com/) - Used for building microservices for scraping and inserting data.
@@ -78,13 +80,17 @@ The websites in which product data are being scraped:
 
 5. docker-compose -f./docker-compose.yml -p tgdd down
 
-## 💡 Interactive API Docs
+## 💡 Interactive Services Routed through [NGINX](https://nginx.org/)
+
+### Web Page Service Container
+
+![Screenshot of UI](assets/nginx.png)
 
 ### Data Crawling API Service Container
 
 ![Screenshot of UI](assets/8000.png)
 
-### Data Ingestion API Service 
+### Data Ingestion API Service Container
 
 ![Screenshot of UI](assets/8001.png)
 

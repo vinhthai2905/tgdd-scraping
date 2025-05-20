@@ -1,10 +1,10 @@
-FROM node:20
+FROM node:18-alpine
 
 WORKDIR /base/web_page
 
 COPY . .
 
-RUN rm -rf node_modules package-lock.json
+RUN rm -rf node_modules
 
 RUN npm install
 
