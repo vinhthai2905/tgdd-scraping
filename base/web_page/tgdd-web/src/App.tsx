@@ -81,15 +81,7 @@ function App() {
       <main className='mx-auto px-4 pb-8'>
         <div className='bg-white p-4 rounded-lg mb-6'>
           <div className='flex flex-col gap-4'>
-            <div className='flex justify-between items-center'>
-              <h2 className='text-lg font-semibold'>Danh sách sản phẩm</h2>
-              <div className='flex gap-4'>
-                <select className='border rounded px-2 py-1 text-sm'>
-                  <option>Giá thấp đến cao</option>
-                  <option>Giá cao đến thấp</option>
-                </select>
-              </div>
-            </div>
+           
 
             <div className='flex gap-4'>
               <input
