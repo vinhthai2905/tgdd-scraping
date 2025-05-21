@@ -1,3 +1,7 @@
+# > [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+
 # TGDD Scraping Documents:
 A simple API built with FastAPI and PostgreSQL, being containerized using Docker. The main goal is to scraping products.
 
@@ -21,7 +25,12 @@ The websites in which product data are being scraped:
 
 🐘 [PostgreSQL](https://www.postgresql.org/)
 
-🐳 [Docker](https://www.docker.com/) - Used for isolating services and encapsulating necessary things for the software instead of doing it traditional ways.
+🐳 [Docker](https://www.docker.com/) - Used for isolating services and encapsulating necessary things for the software instead of doing it 
+traditional ways.
+
+🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
+
+🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
 
 🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
 
