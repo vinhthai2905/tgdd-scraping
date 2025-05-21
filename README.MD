@@ -25,14 +25,10 @@ The websites in which product data are being scraped:
 
 ### Core Tools:
 
-🐘 [PostgreSQL](https://www.postgresql.org/)
+🐘 [PostgreSQL](https://www.postgresql.org/) - is a free and open-source relational database management.
 
 🐳 [Docker](https://www.docker.com/) - Used for isolating services and encapsulating necessary things for the software instead of doing it 
 traditional ways.
-
-🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
-
-🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
 
 🧭 [NGINX](https://nginx.org/) - Acts as a gateway that routes frontend and backend services under a unified interface.
 
