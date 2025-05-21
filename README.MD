@@ -68,8 +68,8 @@ traditional ways.
 
 ### 💾 Clone the Repository
 
-1. git clone https://github.com/vinhthai2905/TGDD_Scraping.git
-2. cd TGDD_Scraping/base
+1. git clone https://github.com/vinhthai2905/tgdd-scraping
+2. cd tgdd-scraping/base
 
 ### 🐳 Running with Docker Compose
 
